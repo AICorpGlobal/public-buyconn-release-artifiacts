@@ -1,0 +1,42 @@
+{
+  "whatsapp": {
+    "addedAtUtc": "2024-07-17T11:01:55.087Z",
+    "correlationId": "string",
+    "lastModifiedBy": "string",
+    "lastModifiedOn": "2024-07-17T11:01:55.087Z",
+    "version": 0,
+    "regionId": "string",
+    "sellerId": "string",
+    "storeId": "string",
+    "userId": "string",
+    "componentId": "string",
+    "componentName": "string",
+    "integrationName": "string",
+    "source": "string",
+    "parameters": {
+      "phoneid": "string",
+      "token": "string",
+      "number": "string"
+    }
+  }  
+  "instagram": {
+    "addedAtUtc": "2024-07-17T11:01:55.087Z",
+    "correlationId": "string",
+    "lastModifiedBy": "string",
+    "lastModifiedOn": "2024-07-17T11:01:55.087Z",
+    "version": 0,
+    "regionId": "string",
+    "sellerId": "string",
+    "storeId": "string",
+    "userId": "string",
+    "componentId": "string",
+    "componentName": "string",
+    "integrationName": "string",
+    "source": "string",
+    "parameters": {
+      "phoneid": "string",
+      "token": "string",
+      "number": "string"
+    }
+  }
+}
