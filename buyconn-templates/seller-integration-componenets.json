@@ -13,6 +13,8 @@
     "componentName": "string",
     "integrationName": "string",
     "source": "string",
+    "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVku7mPwnO62lpuB51PfS_hFN0W578ACIn44tfrlklXYM1cmUtpbiMolJbVbabpycgg7I&usqp=CAU",
+    "tag": "WhatsApp is an instant messaging and voice-over-IP service owned by technology conglomerate Meta.",
     "parameters": {
       "phoneid": "string",
       "token": "string",
@@ -33,6 +35,8 @@
     "componentName": "string",
     "integrationName": "string",
     "source": "string",
+    "icon":"https://img.freepik.com/free-vector/instagram-vector-social-media-icon-7-june-2021-bangkok-thailand_53876-136728.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721347200&semt=sph",
+    "tag": "Share what you're into with the people who get you.",
     "parameters": {
       "phoneid": "string",
       "token": "string",
