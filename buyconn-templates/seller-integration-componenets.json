@@ -16,9 +16,9 @@
     "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVku7mPwnO62lpuB51PfS_hFN0W578ACIn44tfrlklXYM1cmUtpbiMolJbVbabpycgg7I&usqp=CAU",
     "tag": "WhatsApp is an instant messaging and voice-over-IP service owned by technology conglomerate Meta.",
     "parameters": {
-      "phoneid": "string",
-      "token": "string",
-      "number": "string"
+      "Phone_Id": "string",
+      "WhatsappAcessToken": "string",
+      "WhatsappPhoneNumber": "string"
     }
   },  
   "instagram": {
