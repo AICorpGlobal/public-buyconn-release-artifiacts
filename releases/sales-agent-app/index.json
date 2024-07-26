@@ -1,7 +1,9 @@
-[{
-  name:"sales-agent",
-  buildId:"",
-  apkUrl:"",
-  releaseNote:"",
-  releaseDate:""
-}]
+[
+    {
+        "name": "sales-agent",
+        "buildId": "",
+        "apkUrl": "",
+        "releaseNote": "",
+        "releaseDate": ""
+    }
+]
