@@ -1,0 +1,37 @@
+{
+  "addedAtUtc": "2024-07-29T10:56:44.631Z",
+  "correlationId": "string",
+  "lastModifiedBy": "string",
+  "lastModifiedOn": "2024-07-29T10:56:44.631Z",
+  "version": 0,
+  "regionId": "00000000-0000-0000-0000-000000000001",
+  "sellerId": "00000000-0000-0000-0000-000000000000",
+  "storeId": "00000000-0000-0000-0000-000000000000",
+  "userId": "00000000-0000-0000-0000-000000000000",
+  "workflowId": "ff04b255-415c-41e4-aac3-800568e8d288",
+  "workflowType": "template",
+  "state": "active",
+  "lastUpdateTimeStamp": "2024-07-29T10:56:44.631Z",
+  "assignee": "",
+  "createdBy": "system",
+  "createdOn": "2024-07-29T10:56:44.631Z",
+  "description": "New customer handling workflow",
+  "participants": [  ],
+  "totalEffortInHours": 0,
+  "remainingEffortInHours": 0,
+  "effortInHours": 0,
+  "points": 0,
+  "priority": "default",
+  "areaPath": "sellers/{sellerId}/customers",
+  "tags": [
+    "customers"
+  ],
+  "triggers": {
+
+  },
+  "events": {
+
+  },
+  "actions": [
+  ]
+}
