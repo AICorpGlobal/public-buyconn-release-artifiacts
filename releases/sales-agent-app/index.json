@@ -1,7 +1,7 @@
 [
     {
         "name": "sales-agent",
-        "buildId": "20240802.1",
+        "buildId": "20240802.4",
         "apkUrl": "https://drive.usercontent.google.com/download?id=1N3TrPwblzDNIJ0aK4stzIQt3Jss4g1GL&export=download&authuser=2&confirm=t&uuid=b8518d79-933f-4ce6-bd76-f6920eb8a0f5&at=APZUnTVxxJ2nlt84ZBIbZvJbz7CK:1722598091266",
         "releaseNote": "We have added CRM capabilities",
         "releaseDate": "2024-08-02"
