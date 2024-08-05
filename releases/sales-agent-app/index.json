@@ -20,5 +20,13 @@
         "releaseNote": "Auto update beta testing",
         "releaseDate": "2024-08-03"
     }
+
+        {
+        "name": "sales-agent",
+        "buildId": "2024080214",
+        "apkUrl": "https://drive.usercontent.google.com/download?id=1X9agwloTAVGY-E0f4AIcMiFzNvtmXvvd&export=download&authuser=2&confirm=t&uuid=5b67f539-ec37-42d6-9f62-a0a1348f3026&at=APZUnTUDmgxH-WWr9-8nZcrB0Pdr:1722849242556",
+        "releaseNote": "Auto update feature added",
+        "releaseDate": "2024-08-05"
+        }
     
 ]
