@@ -1,0 +1,46 @@
+[
+    {
+        "name": "Customer Count",
+        "description": "Number of customers",
+        "request": {
+            "route": "/api/v1/sellers/{sellerId}/customers/count",
+            "method": "GET",
+            "body": {},
+            "headers": {}
+        },
+        "refreshFrequency": "1min"
+    },
+    {
+        "name": "Catalouge Count",
+        "description": "Number of customers",
+        "request": {
+            "route": "/api/v1/sellers/{sellerId}/inventory/catalouges/count",
+            "method": "GET",
+            "body": {},
+            "headers": {}
+        },
+        "refreshFrequency": "1min"
+    },
+    {
+        "name": "Commodity Count",
+        "description": "Number of customers",
+        "request": {
+            "route": "/api/v1/sellers/{sellerId}/inventory/commodities/count",
+            "method": "GET",
+            "body": {},
+            "headers": {}
+        },
+        "refreshFrequency": "1min"
+    },
+    {
+        "name": "Coupons Count",
+        "description": "Number of customers",
+        "request": {
+            "route": "/api/v1/sellers/{sellerId}/coupon-booklet/count",
+            "method": "GET",
+            "body": {},
+            "headers": {}
+        },
+        "refreshFrequency": "1min"
+    }
+]
