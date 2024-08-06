@@ -29,7 +29,7 @@
     },
     {
         "name": "sales-agent",
-        "buildId": "202408061",
+        "buildId": "2024080610",
         "apkUrl": "https://drive.usercontent.google.com/download?id=1S18JUFOId3C9qo06WPlyXZyJXVRy8YAC&export=download&authuser=2&confirm=t&uuid=51a34e1b-4bff-40ae-bbc4-56bff10321a2&at=APZUnTX5tGZ9bj4iU_z8cW7CgoIU:1722935154542",
         "releaseNote": "Pagination issue fixed",
         "releaseDate": "2024-08-06"
