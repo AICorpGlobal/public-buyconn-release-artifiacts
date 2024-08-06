@@ -1,46 +1,195 @@
-[
-    {
-        "name": "Customer Count",
-        "description": "Number of customers",
-        "request": {
-            "route": "/api/v1/sellers/{sellerId}/customers/count",
-            "method": "GET",
-            "body": {},
-            "headers": {}
+{
+    "description": "Overview",
+    "editable": true,
+    "fiscalYearStartMonth": 0,
+    "graphTooltip": 0,
+    "id": "",
+    "version": "0",
+    "title": "Main Dashboard",
+    "panels": [
+        {
+            "id": "",
+            "title": "Customer Count",
+            "description": "Number of customers",
+            "type": "counter",
+            "position": {
+                "h": 4,
+                "w": 6,
+                "x": 18,
+                "y": 4
+            },
+            "size": {
+                "h": 4,
+                "w": 6,
+                "x": 18,
+                "y": 4
+            },
+            "datasource": {
+                "type": "http",
+                "uid": "",
+                "request": {
+                    "route": "/api/v1/sellers/{sellerId}/inventory/catalouges/count",
+                    "method": "GET",
+                    "body": {},
+                    "headers": {}
+                }
+            },
+            "refreshFrequency": "1min",
+            "options": {
+                "reduceOptions": {
+                    "values": false,
+                    "calcs": [
+                        "lastNotNull"
+                    ],
+                    "fields": "/^Value \\#A$/"
+                },
+                "orientation": "auto",
+                "textMode": "value",
+                "wideLayout": true,
+                "colorMode": "background",
+                "graphMode": "none",
+                "justifyMode": "auto",
+                "showPercentChange": false,
+                "percentChangeColorMode": "standard"
+            }
         },
-        "refreshFrequency": "1min"
-    },
-    {
-        "name": "Catalouge Count",
-        "description": "Number of customers",
-        "request": {
-            "route": "/api/v1/sellers/{sellerId}/inventory/catalouges/count",
-            "method": "GET",
-            "body": {},
-            "headers": {}
+        {
+            "id": "",
+            "title": "Catalouge Count",
+            "description": "Number of Catalouge",
+            "type": "counter",
+            "position": {
+                "h": 4,
+                "w": 6,
+                "x": 18,
+                "y": 4
+            },
+            "size": {
+                "h": 4,
+                "w": 6,
+                "x": 18,
+                "y": 4
+            },
+            "datasource": {
+                "type": "http",
+                "uid": "",
+                "request": {
+                    "route": "/api/v1/sellers/{sellerId}/inventory/catalouges/count",
+                    "method": "GET",
+                    "body": {},
+                    "headers": {}
+                }
+            },
+            "refreshFrequency": "1min",
+            "options": {
+                "reduceOptions": {
+                    "values": false,
+                    "calcs": [
+                        "lastNotNull"
+                    ],
+                    "fields": "/^Value \\#A$/"
+                },
+                "orientation": "auto",
+                "textMode": "value",
+                "wideLayout": true,
+                "colorMode": "background",
+                "graphMode": "none",
+                "justifyMode": "auto",
+                "showPercentChange": false,
+                "percentChangeColorMode": "standard"
+            }
         },
-        "refreshFrequency": "1min"
-    },
-    {
-        "name": "Commodity Count",
-        "description": "Number of customers",
-        "request": {
-            "route": "/api/v1/sellers/{sellerId}/inventory/commodities/count",
-            "method": "GET",
-            "body": {},
-            "headers": {}
+        {
+            "id": "",
+            "title": "Commodity Count",
+            "description": "Number of Commodity",
+            "type": "counter",
+            "position": {
+                "h": 4,
+                "w": 6,
+                "x": 18,
+                "y": 4
+            },
+            "size": {
+                "h": 4,
+                "w": 6,
+                "x": 18,
+                "y": 4
+            },
+            "datasource": {
+                "type": "http",
+                "uid": "",
+                "request": {
+                    "route": "/api/v1/sellers/{sellerId}/inventory/catalouges/count",
+                    "method": "GET",
+                    "body": {},
+                    "headers": {}
+                }
+            },
+            "refreshFrequency": "1min",
+            "options": {
+                "reduceOptions": {
+                    "values": false,
+                    "calcs": [
+                        "lastNotNull"
+                    ],
+                    "fields": "/^Value \\#A$/"
+                },
+                "orientation": "auto",
+                "textMode": "value",
+                "wideLayout": true,
+                "colorMode": "background",
+                "graphMode": "none",
+                "justifyMode": "auto",
+                "showPercentChange": false,
+                "percentChangeColorMode": "standard"
+            }
         },
-        "refreshFrequency": "1min"
-    },
-    {
-        "name": "Coupons Count",
-        "description": "Number of customers",
-        "request": {
-            "route": "/api/v1/sellers/{sellerId}/coupon-booklet/count",
-            "method": "GET",
-            "body": {},
-            "headers": {}
-        },
-        "refreshFrequency": "1min"
-    }
-]
+        {
+            "id": "",
+            "title": "Coupons Count",
+            "description": "Number of Coupons",
+            "type": "counter",
+            "position": {
+                "h": 4,
+                "w": 6,
+                "x": 18,
+                "y": 4
+            },
+            "size": {
+                "h": 4,
+                "w": 6,
+                "x": 18,
+                "y": 4
+            },
+            "datasource": {
+                "type": "http",
+                "uid": "",
+                "request": {
+                    "route": "/api/v1/sellers/{sellerId}/inventory/catalouges/count",
+                    "method": "GET",
+                    "body": {},
+                    "headers": {}
+                }
+            },
+            "refreshFrequency": "1min",
+            "options": {
+                "reduceOptions": {
+                    "values": false,
+                    "calcs": [
+                        "lastNotNull"
+                    ],
+                    "fields": "/^Value \\#A$/"
+                },
+                "orientation": "auto",
+                "textMode": "value",
+                "wideLayout": true,
+                "colorMode": "background",
+                "graphMode": "none",
+                "justifyMode": "auto",
+                "showPercentChange": false,
+                "percentChangeColorMode": "standard"
+            }
+        }
+    ]
+}
