@@ -28,7 +28,99 @@
                 "type": "http",
                 "uid": "",
                 "request": {
-                    "route": "/api/v1/sellers/{sellerId}/inventory/catalouges/count",
+                    "route": "/api/v1/sellers/{sellerId}/customers/count",
+                    "method": "GET",
+                    "body": {},
+                    "headers": {}
+                }
+            },
+            "refreshFrequency": "1min",
+            "options": {
+                "reduceOptions": {
+                    "values": false,
+                    "calcs": [
+                        "lastNotNull"
+                    ],
+                    "fields": "/^Value \\#A$/"
+                },
+                "orientation": "auto",
+                "textMode": "value",
+                "wideLayout": true,
+                "colorMode": "background",
+                "graphMode": "none",
+                "justifyMode": "auto",
+                "showPercentChange": false,
+                "percentChangeColorMode": "standard"
+            }
+        },
+          {
+            "id": "",
+            "title": "Store Count",
+            "description": "Number of stores",
+            "type": "counter",
+            "position": {
+                "h": 4,
+                "w": 6,
+                "x": 18,
+                "y": 4
+            },
+            "size": {
+                "h": 4,
+                "w": 6,
+                "x": 18,
+                "y": 4
+            },
+            "datasource": {
+                "type": "http",
+                "uid": "",
+                "request": {
+                    "route": "/api/v1/sellers/{sellerId}/stores/count",
+                    "method": "GET",
+                    "body": {},
+                    "headers": {}
+                }
+            },
+            "refreshFrequency": "1min",
+            "options": {
+                "reduceOptions": {
+                    "values": false,
+                    "calcs": [
+                        "lastNotNull"
+                    ],
+                    "fields": "/^Value \\#A$/"
+                },
+                "orientation": "auto",
+                "textMode": "value",
+                "wideLayout": true,
+                "colorMode": "background",
+                "graphMode": "none",
+                "justifyMode": "auto",
+                "showPercentChange": false,
+                "percentChangeColorMode": "standard"
+            }
+        },
+          {
+            "id": "",
+            "title": "User Count",
+            "description": "Number of Users",
+            "type": "counter",
+            "position": {
+                "h": 4,
+                "w": 6,
+                "x": 18,
+                "y": 4
+            },
+            "size": {
+                "h": 4,
+                "w": 6,
+                "x": 18,
+                "y": 4
+            },
+            "datasource": {
+                "type": "http",
+                "uid": "",
+                "request": {
+                    "route": "/api/v1/sellers/{sellerId}/users/count",
                     "method": "GET",
                     "body": {},
                     "headers": {}
@@ -120,7 +212,7 @@
                 "type": "http",
                 "uid": "",
                 "request": {
-                    "route": "/api/v1/sellers/{sellerId}/inventory/catalouges/count",
+                    "route": "/api/v1/sellers/{sellerId}/inventory/commodities/count",
                     "method": "GET",
                     "body": {},
                     "headers": {}
@@ -166,7 +258,7 @@
                 "type": "http",
                 "uid": "",
                 "request": {
-                    "route": "/api/v1/sellers/{sellerId}/inventory/catalouges/count",
+                    "route": "/api/v1/sellers/{sellerId}/coupon-booklets/count",
                     "method": "GET",
                     "body": {},
                     "headers": {}
