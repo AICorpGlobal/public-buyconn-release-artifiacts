@@ -1,18 +1,4 @@
-[
-    {
-        "name": "sales-agent",
-        "buildId": "2024080211",
-        "apkUrl": "https://drive.usercontent.google.com/download?id=1jIbmWbjCohLkfS4aL_nYe6S8ROSnHhuP&export=download&authuser=2&confirm=t&uuid=6b48fca1-d9e6-41a0-98a4-13633a0876dc&at=APZUnTW06_kB1uH4ckUg3CEfVS7G:1722620472934",
-        "releaseNote": "We have enabled auto update",
-        "releaseDate": "2024-08-01"
-    }, 
-    {
-        "name": "sales-agent",
-        "buildId": "2024080212",
-        "apkUrl": "https://drive.usercontent.google.com/download?id=1jIbmWbjCohLkfS4aL_nYe6S8ROSnHhuP&export=download&authuser=2&confirm=t&uuid=6b48fca1-d9e6-41a0-98a4-13633a0876dc&at=APZUnTW06_kB1uH4ckUg3CEfVS7G:1722620472934",
-        "releaseNote": "Auto update beta testing",
-        "releaseDate": "2024-08-02"
-    },     
+[    
     {
         "name": "sales-agent",
         "buildId": "2024080213",
@@ -23,7 +9,7 @@
     {
         "name": "sales-agent",
         "buildId": "2024080214",
-        "apkUrl": "https://drive.usercontent.google.com/download?id=1X9agwloTAVGY-E0f4AIcMiFzNvtmXvvd&export=download&authuser=2&confirm=t&uuid=5b67f539-ec37-42d6-9f62-a0a1348f3026&at=APZUnTUDmgxH-WWr9-8nZcrB0Pdr:1722849242556",
+        "apkUrl": "https://drive.usercontent.google.com/download?id=1tF3eDEBZmrub36S0kNJm_TAs23jPfkY7&export=download&authuser=2&confirm=t&uuid=b5443bf2-72ac-4dc8-bb93-db7e39b966fc&at=APZUnTW6F_0pB-Mr4WSvD2E9kDny:1723010132219",
         "releaseNote": "Auto update feature added",
         "releaseDate": "2024-08-04"
     }
