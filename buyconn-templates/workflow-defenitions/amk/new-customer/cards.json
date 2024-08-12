@@ -1,1 +1,90 @@
-
+// incomplete - http url as source should be supported
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "uiType": "text",
+      "label": "Card Title",
+      "placeholder": "Enter card title",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "uiType": "textarea",
+      "label": "Description",
+      "placeholder": "Enter card description",
+      "rows": 3
+    },
+    "assignee": {
+      "type": "string",
+      "uiType": "select",
+      "label": "Assignee",
+      "options": [
+        {"value": "user1", "label": "User 1"},
+        {"value": "user2", "label": "User 2"},
+        {"value": "user3", "label": "User 3"}
+      ]
+    },
+    "dueDate": {
+      "type": "string",
+      "format": "date",
+      "uiType": "datepicker",
+      "label": "Due Date"
+    },
+    "priority": {
+      "type": "string",
+      "uiType": "radio",
+      "label": "Priority",
+      "options": [
+        {"value": "low", "label": "Low"},
+        {"value": "medium", "label": "Medium"},
+        {"value": "high", "label": "High"}
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uiType": "multiselect",
+      "label": "Tags",
+      "options": [
+        {"value": "feature", "label": "Feature"},
+        {"value": "bug", "label": "Bug"},
+        {"value": "improvement", "label": "Improvement"},
+        {"value": "documentation", "label": "Documentation"}
+      ]
+    },
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
+      "uiType": "file",
+      "label": "Attachments",
+      "multiple": true
+    },
+    "customFields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "uiType": "text",
+            "label": "Field Name"
+          },
+          "value": {
+            "type": "string",
+            "uiType": "text",
+            "label": "Field Value"
+          }
+        }
+      },
+      "uiType": "dynamicFields",
+      "label": "Custom Fields"
+    }
+  }
+}
