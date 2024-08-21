@@ -42,5 +42,28 @@
       "token": "string",
       "number": "string"
     }
+  },
+   "facebook": {
+    "addedAtUtc": "2024-07-17T11:01:55.087Z",
+    "correlationId": "string",
+    "lastModifiedBy": "string",
+    "lastModifiedOn": "2024-07-17T11:01:55.087Z",
+    "version": 0,
+    "regionId": "string",
+    "sellerId": "string",
+    "storeId": "string",
+    "userId": "string",
+    "componentId": "string",
+    "componentName": "string",
+    "integrationName": "string",
+    "source": "string",
+    "icon":"https://img.freepik.com/free-vector/instagram-vector-social-media-icon-7-june-2021-bangkok-thailand_53876-136728.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721347200&semt=sph",
+    "tag": "Share what you're into with the people who get you.",
+    "parameters": {
+      "FaceBookPageAccessToken": "string",
+      "FaceBookPageId": "string",
+   
+    }
   }
+  
 }
