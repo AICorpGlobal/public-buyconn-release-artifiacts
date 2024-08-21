@@ -62,7 +62,6 @@
     "parameters": {
       "FaceBookPageAccessToken": "string",
       "FaceBookPageId": "string",
-   
     }
   }
   
