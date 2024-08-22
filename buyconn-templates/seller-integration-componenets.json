@@ -57,7 +57,7 @@
     "componentName": "string",
     "integrationName": "string",
     "source": "string",
-    "icon":"https://img.freepik.com/free-vector/instagram-vector-social-media-icon-7-june-2021-bangkok-thailand_53876-136728.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1721347200&semt=sph",
+    "icon":"https://cdn-icons-png.freepik.com/256/15707/15707884.png?semt=ais_hybrid",
     "tag": "Share what you're into with the people who get you.",
     "parameters": {
       "FaceBookPageAccessToken": "string",
