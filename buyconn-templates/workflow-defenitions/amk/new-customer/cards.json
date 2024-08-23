@@ -8,6 +8,13 @@
       "placeholder": "Enter card title",
       "required": true
     },
+    "cardType": {
+      "type": "string",
+      "uiType": "text",
+      "label": "Card Type",
+      "placeholder": "Enter card type",
+      "required": true
+    },
     "description": {
       "type": "string",
       "uiType": "textarea",
@@ -15,7 +22,17 @@
       "placeholder": "Enter card description",
       "rows": 3
     },
-    "assignee": {
+    "currentAssignee": {
+      "type": "string",
+      "uiType": "select",
+      "label": "Assignee",
+      "optionsUrl": "https://api.example.com/users",
+      "optionsMapping": {
+        "value": "id",
+        "label": "name"
+      }
+    },
+    "participants": {
       "type": "string",
       "uiType": "select",
       "label": "Assignee",
@@ -64,7 +81,7 @@
       "label": "Attachments",
       "multiple": true
     },
-    "status": {
+    "state": {
       "type": "string",
       "uiType": "select",
       "label": "Status",
