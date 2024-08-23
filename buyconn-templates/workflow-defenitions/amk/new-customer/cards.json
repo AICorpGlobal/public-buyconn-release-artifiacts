@@ -27,20 +27,20 @@
       "uiType": "select",
       "label": "Assignee",
       "optionsUrl": "/api/v1/seller/{sellerId}/user",
-      "optionsMapping": {
+      "optionsMapping": [{
         "value": "id",
         "label": "name"
-      }
+      }]
     },
     "participants": {
       "type": "string",
       "uiType": "select",
       "label": "participants",
       "optionsUrl": "/api/v1/seller/{sellerId}/user",
-      "optionsMapping": {
+      "optionsMapping": [{
         "value": "id",
         "label": "name"
-      }
+      }]
     },
     "dueDate": {
       "type": "string",
@@ -66,10 +66,10 @@
       "uiType": "multiselect",
       "label": "Tags",
       "optionsUrl": "https://api.example.com/tags",
-      "optionsMapping": {
+      "optionsMapping": [{
         "value": "id",
         "label": "name"
-      }
+      }]
     },
     "attachments": {
       "type": "array",
@@ -86,10 +86,10 @@
       "uiType": "select",
       "label": "Status",
       "optionsUrl": "https://api.example.com/statuses",
-      "optionsMapping": {
+      "optionsMapping": [{
         "value": "code",
         "label": "description"
-      }
+      }]
     },
     "customFields": {
       "type": "array",
