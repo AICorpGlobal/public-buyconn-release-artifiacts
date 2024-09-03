@@ -34,5 +34,7 @@
   },
   "actions": [
   ],
-  "name":""
+  "name":"",
+  "startDate":"",
+  "endDate":""
 }
