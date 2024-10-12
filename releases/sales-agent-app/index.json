@@ -19,6 +19,13 @@
         "apkUrl": "https://drive.usercontent.google.com/download?id=1BtUIrDEeTGXPqyP0DsuoMbNyxPh-E9qp&export=download&authuser=2&confirm=t&uuid=4d44aa95-530d-4c2a-8f7f-6f2490b66751&at=AO7h07d5CXreFGkGAypZRigB1juB:1725261821837",
         "releaseNote": "Store switching option added",
         "releaseDate": "2024-08-22"
+    },
+        {
+        "name": "sales-agent",
+        "buildId": "2024092410",
+        "apkUrl": "https://drive.usercontent.google.com/download?id=1z-_wjeGSIAFE_sLJnSF-LzPIUIfJJ7_F&export=download&authuser=2&confirm=t&uuid=7a301443-3f85-480e-94df-485faad25884&at=AN_67v094mQY7zkn-koipeTeqLD1:1728729813281",
+        "releaseNote": "Sessions option added",
+        "releaseDate": "2024-09-24"
     }
     
 ]
