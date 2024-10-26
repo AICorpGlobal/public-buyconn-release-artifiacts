@@ -15,6 +15,7 @@
   "assignee": "",
   "createdBy": "system",
   "createdOn": "",
+  "name":"",
   "description": "New customer handling workflow",
   "participants": [  ],
   "totalEffortInHours": 0,
@@ -34,7 +35,6 @@
   },
   "actions": [
   ],
-  "name":"",
   "startDate":"",
   "endDate":""
 }
