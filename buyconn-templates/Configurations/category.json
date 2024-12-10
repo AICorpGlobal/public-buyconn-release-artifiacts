@@ -1,0 +1,58 @@
+[
+    {
+        "categoryId": "1",
+        "parentId": "0",
+        "name": "Electronics",
+        "description": "Devices and gadgets",
+        "imageUrl": "https://example.com/images/electronics.jpg",
+        "isActive": true
+    },
+    {
+        "categoryId": "2",
+        "parentId": "1",
+        "name": "Mobile Phones",
+        "description": "Smartphones and feature phones",
+        "imageUrl": "https://example.com/images/mobile-phones.jpg",
+        "isActive": true
+    },
+    {
+        "categoryId": "3",
+        "parentId": "1",
+        "name": "Laptops",
+        "description": "Portable computers",
+        "imageUrl": "https://example.com/images/laptops.jpg",
+        "isActive": true
+    },
+    {
+        "categoryId": "4",
+        "parentId": "2",
+        "name": "Smartphones",
+        "description": "High-end mobile phones with advanced features",
+        "imageUrl": "https://example.com/images/smartphones.jpg",
+        "isActive": true
+    },
+    {
+        "categoryId": "5",
+        "parentId": "2",
+        "name": "Feature Phones",
+        "description": "Basic mobile phones",
+        "imageUrl": "https://example.com/images/feature-phones.jpg",
+        "isActive": false
+    },
+    {
+        "categoryId": "6",
+        "parentId": "3",
+        "name": "Gaming Laptops",
+        "description": "High-performance laptops for gaming",
+        "imageUrl": "https://example.com/images/gaming-laptops.jpg",
+        "isActive": true
+    },
+    {
+        "categoryId": "7",
+        "parentId": "3",
+        "name": "Business Laptops",
+        "description": "Laptops designed for business use",
+        "imageUrl": "https://example.com/images/business-laptops.jpg",
+        "isActive": true
+    }
+]
