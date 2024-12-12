@@ -1,10 +1,62 @@
-[
-  {
-    "image": "https://img-prd-pim.poorvika.com/cdn-cgi/image/width=1900,height=600,quality=75/pageimg/where-imaginations-meets-innovations-1.jpg",
-    "alt": "Image 1"
-  },
-  {
-    "image": "https://www.lg.com/content/dam/channel/wcms/in/banners/WM-NDTV-Award-Banner-1920x720-2.jpg",
-    "alt": "Image 2"
-  }
-]
+{
+   "Section1":[
+      {
+         "image":"https://www.whitemart.in/media//banner/07-01-2023/desktop%20banner07-01-2023/sony.jpg",
+         "alt":"Image 1"
+      },
+      {
+         "image":"https://www.whitemart.in/media//banner/1592_ISM_Black%20Friday%20Sale_2000x600-01.jpg",
+         "alt":"Image 2"
+      }
+   ],
+   "Section2":[
+      {
+         "image":"https://www.whitemart.in/media/cache/329x0/images_list/new/brand-Refrigerators-updated_1614669210.webp",
+         "alt":"Image 1"
+      },
+      {
+         "image":"https://www.whitemart.in/media/cache/329x0/images_list/new/brand-TVs-updated_1614669210.webp",
+         "alt":"Image 2"
+      },
+      {
+         "image":"https://www.whitemart.in/media/cache/329x0/images_list/new/brand-AC-Air%20Coolers-updated_1614669210.webp",
+         "alt":"Image 3"
+      },
+      {
+         "image":"https://www.whitemart.in/media/cache/329x0/images_list/new/brand-Washing-updated_1614669210.webp",
+         "alt":"Image 2"
+      }
+   ],
+   "Section3":[
+      {
+         "image":"https://www.whitemart.in/media/cache/700x0/grid/two/Direct-Cool-Refrigerators-2x_1614672963.webp",
+         "alt":"Image 1"
+      },
+      {
+         "image":"https://www.whitemart.in/media/cache/700x0/grid/two/Frost-free-Refrigerators-2x_1614672963.webp",
+         "alt":"Image 2"
+      }
+   ],
+   "Section4":[
+      {
+         "image":"https://www.whitemart.in/media/cache/449x0/grid/led-tv/LED-TV_1614628176.webp",
+         "alt":"Image 1"
+      },
+      {
+         "image":"https://www.whitemart.in/media/cache/449x0/grid/led-tv/QLED-TV_1614628176.webp",
+         "alt":"Image 2"
+      },
+      {
+         "image":"https://www.whitemart.in/media/cache/449x0/grid/led-tv/UHD-TV_1614628176.webp",
+         "alt":"Image 3"
+      },
+      {
+         "image":"https://www.whitemart.in/media/cache/600x0/grid/kitchan/chimney_1614627706.webp",
+         "alt":"Image 3"
+      },
+      {
+         "image":"https://www.whitemart.in/media/cache/600x0/grid/kitchan/Grinders_1614627706.webp",
+         "alt":"Image 4"
+      }
+   ],
+}
