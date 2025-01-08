@@ -1,0 +1,10 @@
+{
+  "home":false,
+  "stores":false,
+  "products":false,
+  "cart":false,
+  "account":true,
+  "favorites":false,
+  "offers":false,
+  "product scanner":true,
+}
