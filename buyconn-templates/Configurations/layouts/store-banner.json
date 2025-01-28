@@ -58,5 +58,15 @@
          "image":"https://www.whitemart.in/media/cache/600x0/grid/kitchan/Grinders_1614627706.webp",
          "alt":"Image 4"
       }
-   ]
+   ],
+   "Section5":[
+      {
+         "image":"https://buyconnazureblobstore.blob.core.windows.net/public/1592_ISM_Black Friday Sale_2000x600-01.jpg",
+         "alt":"Image 1"
+      },
+      {
+         "image":"https://www.whitemart.in/media//banner/1592_ISM_Black%20Friday%20Sale_2000x600-01.jpg",
+         "alt":"Image 2"
+      }
+   ],
 }
