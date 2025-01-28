@@ -68,5 +68,25 @@
       "image": "https://www.whitemart.in/media//banner/1592_ISM_Black%20Friday%20Sale_2000x600-01.jpg",
       "alt": "Image 2"
     }
+  ],
+   "Section6": [
+    {
+      "image": "https://buyconnazureblobstore.blob.core.windows.net/public/1592_ISM_Black Friday Sale_2000x600-01.jpg",
+      "alt": "Image 1"
+    },
+    {
+      "image": "https://www.whitemart.in/media//banner/1592_ISM_Black%20Friday%20Sale_2000x600-01.jpg",
+      "alt": "Image 2"
+    }
+  ],
+   "Section7": [
+    {
+      "image": "https://buyconnazureblobstore.blob.core.windows.net/public/1592_ISM_Black Friday Sale_2000x600-01.jpg",
+      "alt": "Image 1"
+    },
+    {
+      "image": "https://www.whitemart.in/media//banner/1592_ISM_Black%20Friday%20Sale_2000x600-01.jpg",
+      "alt": "Image 2"
+    }
   ]
 }
