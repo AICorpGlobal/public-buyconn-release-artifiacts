@@ -35,7 +35,11 @@
     {
       "image": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F8d1de9077c102ffe55e14851d3af31b9ea8c431deb60d161bd6693072dc27574.chimney_1614627706.webp",
       "alt": "Image 2"
-    }
+    },
+     {
+      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2Fb2cd4af8dc52d370213d13f503b98c730accb3e84403e1f73886f7d9600fd1b2.brand-Washing-updated_1614669210.webp",
+      "alt": "Image 3"
+    },
   ],
   "Section4": [
     {
@@ -46,14 +50,6 @@
       "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F9f502cd81601bc6281a821a30b9ed08e21e8da4bcb03eeced8cd4122cf8f1e84.LED-TV_1614628176.webp",
       "alt": "Image 2"
     },
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2Fb2cd4af8dc52d370213d13f503b98c730accb3e84403e1f73886f7d9600fd1b2.brand-Washing-updated_1614669210.webp",
-      "alt": "Image 3"
-    },
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F04e3ea8a453cab25c7bb51d070e2bedd4851074eb0724498d662b5f0b2e076f7.brand-TVs-updated_1614669210.webp",
-      "alt": "Image 4"
-    }
   ],
   "Section5": [
     {
