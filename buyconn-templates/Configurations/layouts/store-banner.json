@@ -1,11 +1,11 @@
 {
   "Section1": [
     {
-      "image": "https://buyconnazureblobstore.blob.core.windows.net/public/1592_ISM_Black Friday Sale_2000x600-01.jpg",
+      "image": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F6b062f0800cfc2c7bf64b25aeda354298d87ed3d362ee2f41885c1aa10b548c9.Frost-free-Refrigerators-2x_1614672963.webp",
       "alt": "Image 1"
     },
     {
-      "image": "https://api-shop.buyconn.com/api/v1/data/files/get/public/_open/banner/05a5e06c2368f81e5e1b72923e5c1f5aa6bbce5c0a44c94e91d3abf47e2584f6.sony.jpg",
+      "image": "https://api-shop.buyconn.com/api/v1/data/files/get/%2Fpublic%2F_open%2Fbanner%2F05a5e06c2368f81e5e1b72923e5c1f5aa6bbce5c0a44c94e91d3abf47e2584f6.sony.jpg",
       "alt": "Image 2"
     }
   ],
