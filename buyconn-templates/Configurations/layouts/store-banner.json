@@ -1,84 +1,84 @@
 {
-  "Section1": [
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F6b062f0800cfc2c7bf64b25aeda354298d87ed3d362ee2f41885c1aa10b548c9.Frost-free-Refrigerators-2x_1614672963.webp",
-      "alt": "Image 1"
-    },
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/%2Fpublic%2F_open%2Fbanner%2F05a5e06c2368f81e5e1b72923e5c1f5aa6bbce5c0a44c94e91d3abf47e2584f6.sony.jpg",
-      "alt": "Image 2"
-    }
-  ],
-  "Section2": [
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F9bd9dc03b74495830bfbd43acf42ced976d6ee5e8ff3b46e3dd4beed734a05bc.fan-new_1614629288.webp",
-      "alt": "Image 1"
-    },
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F6aba888ad90a35d5c2aaaeb7505b69b5bc90421e7c965674ff5201736a01a476.freezer-new_1614629288.webp",
-      "alt": "Image 2"
-    },
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F4307d85bcd894ae90e93619d7cb6b073d1fd4de77ae02ae896191bd75352e2c6.mixi-new.jpg",
-      "alt": "Image 3"
-    },
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F899c06b9b658de8f527c66c68d07c6fee49f7ce392285648758c794a128efebb.oven-new_1614629288.webp",
-      "alt": "Image 2"
-    }
-  ],
-  "Section3": [
-    {
-      "image": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F41e024f0a89073597922a8a9575f47819e2589c9a3d35b9cb8509b05adf26e1d.Grinders_1614627706.webp",
-      "alt": "Image 1"
-    },
-    {
-      "image": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F8d1de9077c102ffe55e14851d3af31b9ea8c431deb60d161bd6693072dc27574.chimney_1614627706.webp",
-      "alt": "Image 2"
-    },
-     {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2Fb2cd4af8dc52d370213d13f503b98c730accb3e84403e1f73886f7d9600fd1b2.brand-Washing-updated_1614669210.webp",
-      "alt": "Image 3"
-    },
-  ],
-  "Section4": [
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F91aa94b113fd8c465c5691c4d64b64badd860020d527a2673b485ac9f5f937a0.Direct-Cool-Refrigerators-2x_1614672963.webp",
-      "alt": "Image 1"
-    },
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F6b062f0800cfc2c7bf64b25aeda354298d87ed3d362ee2f41885c1aa10b548c9.Frost-free-Refrigerators-2x_1614672963.webp",
-      "alt": "Image 2"
-    },
-  ],
-  "Section5": [
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F91aa94b113fd8c465c5691c4d64b64badd860020d527a2673b485ac9f5f937a0.Direct-Cool-Refrigerators-2x_1614672963.webp",
-      "alt": "Image 1"
-    },
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F6b062f0800cfc2c7bf64b25aeda354298d87ed3d362ee2f41885c1aa10b548c9.Frost-free-Refrigerators-2x_1614672963.webp",
-      "alt": "Image 2"
-    }
-  ],
-   "Section6": [
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F196b9b283a9f8d9005aeb040221482dfa921b20f9f38d2c8555bab5eefc5f5c9.watch20size.webp",
-      "alt": "Image 1"
-    },
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2Ff12a56581861933e1ffa50e049526dde4b28c55dcad6cf54a98dc06ab25c6d05.valentines20sale-06.webp",
-      "alt": "Image 2"
-    }
-  ],
-   "Section7": [
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2Fa7c9d17053506312798bea198a9b7014c97f75015f98b5cfc6ecc8a1b3834f26.valentines20sale_mobile%2520banner-04.webp",
-      "alt": "Image 1"
-    },
-    {
-      "imageUrl": "https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F6bf5fb651bd51f29d4b70231b841fadb81ed4b84d0d4c9cdd283f9f2310ed770.shop20category%2520page_valentines-01.webp",
-      "alt": "Image 2"
-    }
-  ]
+   "Section1":[
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F6b062f0800cfc2c7bf64b25aeda354298d87ed3d362ee2f41885c1aa10b548c9.Frost-free-Refrigerators-2x_1614672963.webp",
+         "alt":"Image 1"
+      },
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/%2Fpublic%2F_open%2Fbanner%2F05a5e06c2368f81e5e1b72923e5c1f5aa6bbce5c0a44c94e91d3abf47e2584f6.sony.jpg",
+         "alt":"Image 2"
+      }
+   ],
+   "Section2":[
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F9bd9dc03b74495830bfbd43acf42ced976d6ee5e8ff3b46e3dd4beed734a05bc.fan-new_1614629288.webp",
+         "alt":"Image 1"
+      },
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F6aba888ad90a35d5c2aaaeb7505b69b5bc90421e7c965674ff5201736a01a476.freezer-new_1614629288.webp",
+         "alt":"Image 2"
+      },
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F4307d85bcd894ae90e93619d7cb6b073d1fd4de77ae02ae896191bd75352e2c6.mixi-new.jpg",
+         "alt":"Image 3"
+      },
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F899c06b9b658de8f527c66c68d07c6fee49f7ce392285648758c794a128efebb.oven-new_1614629288.webp",
+         "alt":"Image 2"
+      }
+   ],
+   "Section3":[
+      {
+         "image":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F41e024f0a89073597922a8a9575f47819e2589c9a3d35b9cb8509b05adf26e1d.Grinders_1614627706.webp",
+         "alt":"Image 1"
+      },
+      {
+         "image":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F8d1de9077c102ffe55e14851d3af31b9ea8c431deb60d161bd6693072dc27574.chimney_1614627706.webp",
+         "alt":"Image 2"
+      },
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2Fb2cd4af8dc52d370213d13f503b98c730accb3e84403e1f73886f7d9600fd1b2.brand-Washing-updated_1614669210.webp",
+         "alt":"Image 3"
+      }
+   ],
+   "Section4":[
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F91aa94b113fd8c465c5691c4d64b64badd860020d527a2673b485ac9f5f937a0.Direct-Cool-Refrigerators-2x_1614672963.webp",
+         "alt":"Image 1"
+      },
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F6b062f0800cfc2c7bf64b25aeda354298d87ed3d362ee2f41885c1aa10b548c9.Frost-free-Refrigerators-2x_1614672963.webp",
+         "alt":"Image 2"
+      }
+   ],
+   "Section5":[
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F91aa94b113fd8c465c5691c4d64b64badd860020d527a2673b485ac9f5f937a0.Direct-Cool-Refrigerators-2x_1614672963.webp",
+         "alt":"Image 1"
+      },
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F6b062f0800cfc2c7bf64b25aeda354298d87ed3d362ee2f41885c1aa10b548c9.Frost-free-Refrigerators-2x_1614672963.webp",
+         "alt":"Image 2"
+      }
+   ],
+   "Section6":[
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F196b9b283a9f8d9005aeb040221482dfa921b20f9f38d2c8555bab5eefc5f5c9.watch20size.webp",
+         "alt":"Image 1"
+      },
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2Ff12a56581861933e1ffa50e049526dde4b28c55dcad6cf54a98dc06ab25c6d05.valentines20sale-06.webp",
+         "alt":"Image 2"
+      }
+   ],
+   "Section7":[
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2Fa7c9d17053506312798bea198a9b7014c97f75015f98b5cfc6ecc8a1b3834f26.valentines20sale_mobile%2520banner-04.webp",
+         "alt":"Image 1"
+      },
+      {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F6bf5fb651bd51f29d4b70231b841fadb81ed4b84d0d4c9cdd283f9f2310ed770.shop20category%2520page_valentines-01.webp",
+         "alt":"Image 2"
+      }
+   ]
 }
