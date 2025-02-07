@@ -29,11 +29,11 @@
    ],
    "Section3":[
       {
-         "image":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F41e024f0a89073597922a8a9575f47819e2589c9a3d35b9cb8509b05adf26e1d.Grinders_1614627706.webp",
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F41e024f0a89073597922a8a9575f47819e2589c9a3d35b9cb8509b05adf26e1d.Grinders_1614627706.webp",
          "alt":"Image 1"
       },
       {
-         "image":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F8d1de9077c102ffe55e14851d3af31b9ea8c431deb60d161bd6693072dc27574.chimney_1614627706.webp",
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2Fbanner%2F8d1de9077c102ffe55e14851d3af31b9ea8c431deb60d161bd6693072dc27574.chimney_1614627706.webp",
          "alt":"Image 2"
       },
       {
