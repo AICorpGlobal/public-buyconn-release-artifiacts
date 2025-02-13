@@ -7,6 +7,10 @@
       {
          "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2FbannerImages%2Fb45eb4b8e191c2996d0247836c46e9ef35091216ca814050038c6d49c2366ad9.30.png",
          "alt":"Image 2"
+      },
+       {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2FbannerImages%2F2806fd2b0d20e03dc4df53c8c3a054fbe0163e067cbaf48f77d3db7e207f1003.40.png",
+         "alt":"Image 3"
       }
    ],
    "Section2":[
