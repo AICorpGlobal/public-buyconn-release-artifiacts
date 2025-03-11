@@ -103,7 +103,7 @@
 ## 12. Contact for Disputes
 
 12.1 Dispute Resolution Department
-Email: disputes@buyconn.com
+Email: disputes.buyconn@aicorp.co.in
 Phone: +919995017123, SMS preferred
 
 *Jurisdiction: Trivandrum, Kerala, India*
