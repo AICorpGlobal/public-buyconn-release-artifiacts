@@ -123,3 +123,7 @@ Building an e-commerce or quick commerce platform in Kerala requires more than j
 
 If you build it here , you can win anywhere. ##Kerala
 
+
+## Additional Resouces
+
+- https://www.youtube.com/watch?v=KF6ixggYHxc&t=2440s
