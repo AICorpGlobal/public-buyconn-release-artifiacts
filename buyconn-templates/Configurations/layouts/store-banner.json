@@ -1,15 +1,19 @@
 {
    "Section1":[
       {
-         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2FbannerImages%2F0698af745909dddef15d1c81bfb2fd79622df88bb7d7e61857096f713cb2967f.64.png",
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public/_open/bannerImages/48c83451ba16dc844fa6a8f4708d33eb042b2de8bba75c1f68aa58fc7bcfb77d.web_buyconn-qrs_1-min.png",
          "alt":"Image 1"
       },
       {
-         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public/_open/bannerImages/d9007511f1e78dbf686671d5d1b05b56f62ce5ac71dd74336c4a0fce25390e44.36.png",
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public/_open/bannerImages/133d99c8fca46cb179ca817100647aa785eb3a10f69d07bde48159d7b674d750.web_buyconn-qrs_2-min.png",
          "alt":"Image 2"
       },
        {
-         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public%2F_open%2FbannerImages%2F2806fd2b0d20e03dc4df53c8c3a054fbe0163e067cbaf48f77d3db7e207f1003.40.png",
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public/_open/bannerImages/7eb77e3a3a17096777e752b49a53f3bf87d76947885cfe42505882f607abfff8.web_buyconn-qrs_3-min.png",
+         "alt":"Image 3"
+      },
+        {
+         "imageUrl":"https://api-shop.buyconn.com/api/v1/data/files/get/public/_open/bannerImages/e678a6e2e9e9811ef00b3f5170849bd6deb4906ca8655b0cbdc481443ea95444.web_buyconn-qrs_4-min.png",
          "alt":"Image 3"
       }
    ],
