@@ -2,68 +2,84 @@
   "facets": [
     {
       "name": "ProductTags",
+      "label": "Tags",
       "type": "string[]"
     },
     {
       "name": "ProductType",
+      "label": "Type",
       "type": "string"
     },
     {
       "name": "StoreId",
+      "label": "Store",
       "type": "string"
     },
     {
       "name": "Catagories",
+      "label": "Catagories",
       "type": "string[]"
     },
     {
       "name": "DeliveryType",
+      "label": "Delivery",
       "type": "string[]"
     },
     {
       "name": "Price_facet",
+      "label": "Price",
       "type": "int64"
     },
     {
       "name": "Brand_facet",
+      "label": "Brand",
       "type": "string"
     },
     {
       "name": "Description_facet",
+      "label": "Description",
       "type": "string"
     },
     {
       "name": "Manufacturer_facet",
+      "label": "Manufacturer",
       "type": "string"
     },
     {
       "name": "Resolution_facet",
+      "label": "Resolution",
       "type": "string"
     },
     {
       "name": "Series_facet",
+      "label": "Series",
       "type": "string"
     }
   ],
   "sortable": [
     {
       "name": "GeoCode",
+      "label": "Location",
       "type": "geopoint"
     },
     {
       "name": "CummilativeScore",
+      "label": "Score",
       "type": "float"
     },
     {
       "name": "Price_facet",
+      "label": "Price",
       "type": "int64"
     },
     {
       "name": "discount",
+      "label": "Ddiscount",
       "type": "int64"
     },
     {
       "name": "startingprice",
+      "label": "Starting Price",
       "type": "int64"
     }
   ]
