@@ -1,0 +1,70 @@
+{
+  "faceted": [
+    {
+      "name": "ProductTags",
+      "type": "string[]"
+    },
+    {
+      "name": "ProductType",
+      "type": "string"
+    },
+    {
+      "name": "StoreId",
+      "type": "string"
+    },
+    {
+      "name": "Catagories",
+      "type": "string[]"
+    },
+    {
+      "name": "DeliveryType",
+      "type": "string[]"
+    },
+    {
+      "name": "Price_facet",
+      "type": "int64"
+    },
+    {
+      "name": "Brand_facet",
+      "type": "string"
+    },
+    {
+      "name": "Description_facet",
+      "type": "string"
+    },
+    {
+      "name": "Manufacturer_facet",
+      "type": "string"
+    },
+    {
+      "name": "Resolution_facet",
+      "type": "string"
+    },
+    {
+      "name": "Series_facet",
+      "type": "string"
+    }
+  ],
+  "sortable": [
+    {
+      "name": "GeoCode",
+      "type": "geopoint"
+    },
+    {
+      "name": "CummilativeScore",
+      "type": "float"
+    },
+    {
+      "name": "Price_facet",
+      "type": "int64"
+    },
+    {
+      "name": "discount",
+      "type": "int64"
+    },
+    {
+      "name": "startingprice",
+      "type": "int64"
+    }
+  ]
+}
