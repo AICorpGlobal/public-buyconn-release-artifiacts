@@ -1,0 +1,10 @@
+[ {id: '1', name: 'Electronics', isTrending: true},
+  {id: '2', name: 'Fashion', isTrending: false},
+  {id: '3', name: 'Home & Living', isTrending: true},
+  {id: '4', name: 'Beauty', isTrending: false},
+  {id: '5', name: 'Sports', isTrending: false},
+  {id: '6', name: 'Gaming', isTrending: true},
+  {id: '7', name: 'Books', isTrending: false},
+  {id: '8', name: 'Limited Edition', isTrending: true},
+  {id: '9', name: 'Deals', isTrending: false},
+  {id: '10', name: 'New Arrivals', isTrending: true}]
