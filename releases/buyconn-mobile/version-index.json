@@ -1,0 +1,44 @@
+[    
+    {
+        "name": "sales-agent",
+        "buildId": "2024080213",
+        "apkUrl": "https://drive.usercontent.google.com/download?id=1jIbmWbjCohLkfS4aL_nYe6S8ROSnHhuP&export=download&authuser=2&confirm=t&uuid=6b48fca1-d9e6-41a0-98a4-13633a0876dc&at=APZUnTW06_kB1uH4ckUg3CEfVS7G:1722620472934",
+        "releaseNote": "Auto update beta testing",
+        "releaseDate": "2024-08-03"
+    },
+    {
+        "name": "sales-agent",
+        "buildId": "2024080214",
+        "apkUrl": "https://drive.usercontent.google.com/download?id=1tF3eDEBZmrub36S0kNJm_TAs23jPfkY7&export=download&authuser=2&confirm=t&uuid=b5443bf2-72ac-4dc8-bb93-db7e39b966fc&at=APZUnTW6F_0pB-Mr4WSvD2E9kDny:1723010132219",
+        "releaseNote": "Auto update feature added",
+        "releaseDate": "2024-08-04"
+    },
+    {
+        "name": "sales-agent",
+        "buildId": "2024090210",
+        "apkUrl": "https://drive.usercontent.google.com/download?id=1BtUIrDEeTGXPqyP0DsuoMbNyxPh-E9qp&export=download&authuser=2&confirm=t&uuid=4d44aa95-530d-4c2a-8f7f-6f2490b66751&at=AO7h07d5CXreFGkGAypZRigB1juB:1725261821837",
+        "releaseNote": "Store switching option added",
+        "releaseDate": "2024-08-22"
+    },
+        {
+        "name": "sales-agent",
+        "buildId": "2024092410",
+        "apkUrl": "https://drive.usercontent.google.com/download?id=1z-_wjeGSIAFE_sLJnSF-LzPIUIfJJ7_F&export=download&authuser=2&confirm=t&uuid=7a301443-3f85-480e-94df-485faad25884&at=AN_67v094mQY7zkn-koipeTeqLD1:1728729813281",
+        "releaseNote": "Sessions option added",
+        "releaseDate": "2024-09-24"
+    },
+      {
+        "name": "sales-agent",
+        "buildId": "2024101710",
+        "apkUrl": "https://drive.usercontent.google.com/download?id=1TOnGRLG-2FpoSiPgPlh5weQzst7SNe09&export=download&authuser=2&confirm=t&uuid=8e57867b-75b2-4641-ba7f-cee5647b87e8&at=AN_67v3sqMB4fedgDpTlffOuHXlm:1729316420362",
+        "releaseNote": "Sessions option added",
+        "releaseDate": "2024-10-17"
+    },
+     {
+        "name": "sales-agent",
+        "buildId": "2024120211",
+        "apkUrl": "https://drive.usercontent.google.com/download?id=187ZGmSXsDT1TfGTpiZu2curDh70VDkxK&export=download&authuser=2&confirm=t&uuid=c92c6559-f6bf-4dae-9ea5-b485611be924&at=AENtkXYG5DU4pWS0Crx9wx8J08SQ:1733145360147",
+        "releaseNote": "Fixed bugs",
+        "releaseDate": "2024-12-02"
+    }
+]
