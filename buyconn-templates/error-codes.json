@@ -5,6 +5,6 @@
 },
   "cartitem.auto_select.0001":{
   "description": "usually happens when our system has failed to find matching for a store with the product",
-  "resolution-help": "contact support with your item information and user name, they should be able to get your queries sorted oir try removing the item which might be faulty"
+  "resolution-help": "contact support with your item information and user name, or try removing the item which might be faulty"
 }
 }
