@@ -1,0 +1,10 @@
+{
+  "error-code-help":{
+  "description": "we have decided to use standard error codes in our applications so that it stays consistent across the system, this json file will hold the key value format",
+  "resolution-help": "for this particular-help nothing to do"
+},
+  "cartitem.auto_select.0001":{
+  "description": "usually happens when auto selection for the product has failed to find a store with the product",
+  "resolution-help": "contact support with your item information and user name, they should be able to get your queries sorted"
+}
+}
