@@ -1,0 +1,90 @@
+[{
+  "_id": "00000000-0000-0000-0000-000000000001-+-ceead30b-88f2-4234-a4c4-da34914cf4d2",
+  "PartitionKey": "shop0",
+  "CummilativeScore": 5,
+  "GeoCode": "t9w8rhtu9",
+  "Image": "http://{host}/public/_open/image-Resize/bd703cf774d490b3c4aaebc9d9589cb07ff43a8a2d72aa8c637dd6237f610120.Group-1-300x68.png",
+  "Name": "LogTech, Palayam",
+  "RatingCount": 0
+},
+{
+  "_id": "00000000-0000-0000-0000-000000000001-+-faa27ee9-795c-4647-8acc-354fd3548de3",
+  "PartitionKey": "shop0",
+  "CummilativeScore": 0,
+  "GeoCode": "t9w8qfpmh",
+  "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
+  "Name": "QRS Retail Ltd",
+  "RatingCount": 0
+},
+{
+  "_id": "00000000-0000-0000-0000-000000000001-+-e5563dd7-bdb6-4285-a8cd-901dd69f994f",
+  "PartitionKey": "shop0",
+  "CummilativeScore": 0,
+  "GeoCode": "t9w8w7sx6",
+  "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
+  "Name": "QRS Super Centre, Sreekariyam",
+  "RatingCount": 0
+},
+{
+  "_id": "00000000-0000-0000-0000-000000000001-+-776de58a-473d-4099-a6c4-7c316942b490",
+  "PartitionKey": "shop0",
+  "CummilativeScore": 0,
+  "GeoCode": "t9w8prgp5",
+  "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
+  "Name": "QRS Retail Ltd, Karamana",
+  "RatingCount": 0
+},
+{
+  "_id": "00000000-0000-0000-0000-000000000001-+-5c377dcc-ecaf-4de3-8ee1-ceb176914251",
+  "PartitionKey": "shop0",
+  "CummilativeScore": 0,
+  "GeoCode": "t9w8qzdmh",
+  "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
+  "Name": "QRS Retail Ltd, Pattom",
+  "RatingCount": 0
+},
+{
+  "_id": "00000000-0000-0000-0000-000000000001-+-1cfa497d-705f-4823-a45d-b06d13aaf55d",
+  "PartitionKey": "shop0",
+  "CummilativeScore": 0,
+  "GeoCode": "t9qzcnhfc",
+  "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
+  "Name": "QRS Retail LTD, Balaramapuram",
+  "RatingCount": 0
+},
+{
+  "_id": "00000000-0000-0000-0000-000000000001-+-13d39aa7-99c3-4686-b27c-c1836b134517",
+  "PartitionKey": "shop0",
+  "CummilativeScore": 0,
+  "GeoCode": "t9wb07054",
+  "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
+  "Name": "QRS Retail Limited, Nemom",
+  "RatingCount": 0
+},
+{
+  "_id": "00000000-0000-0000-0000-000000000001-+-d21d5cd2-899c-4f39-ba94-f45841058711",
+  "PartitionKey": "shop0",
+  "CummilativeScore": 0,
+  "GeoCode": "t9w9ebwdx",
+  "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
+  "Name": "QRS Retail Ltd, Attingal",
+  "RatingCount": 0
+},
+{
+  "_id": "00000000-0000-0000-0000-000000000001-+-72c0a445-467d-432b-a0f7-c302ff8f9806",
+  "PartitionKey": "shop0",
+  "CummilativeScore": 0,
+  "GeoCode": "t9wbbnvpt",
+  "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
+  "Name": "QRS Retail Ltd, Nedumangad",
+  "RatingCount": 0
+},
+{
+  "_id": "00000000-0000-0000-0000-000000000001-+-5eda79d4-18d1-4ff1-9f47-ccc317de14b7",
+  "PartitionKey": "shop0",
+  "CummilativeScore": 0,
+  "GeoCode": "t9w8txhyd",
+  "Image": "http://{host}/public/_open/image-Resize/37e83a947a61d390c1731d7fa2d04971944c27b455ca7f04093f8cb411a0e7ac.AMK.png",
+  "Name": "AMK ",
+  "RatingCount": 0
+}]
