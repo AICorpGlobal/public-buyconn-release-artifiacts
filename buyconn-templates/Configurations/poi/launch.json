@@ -5,6 +5,7 @@
   "GeoCode": "t9w8rhtu9",
   "Image": "http://{host}/public/_open/image-Resize/bd703cf774d490b3c4aaebc9d9589cb07ff43a8a2d72aa8c637dd6237f610120.Group-1-300x68.png",
   "Name": "LogTech, Palayam",
+  "Description": "",
   "RatingCount": 5
 },
 {
@@ -14,6 +15,7 @@
   "GeoCode": "t9w8rhtu8",
   "Image": "http://{host}/public/_open/image-Resize/bd703cf774d490b3c4aaebc9d9589cb07ff43a8a2d72aa8c637dd6237f610120.Group-1-300x68.png",
   "Name": "LogTech, Visitors Chest",
+  "Description": "Scan the qr code to find the hidden treasure",
   "RatingCount": 5
 },
 {
@@ -23,6 +25,7 @@
   "GeoCode": "t9w8qfpmh",
   "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
   "Name": "QRS Retail Ltd",
+  "Description": "",
   "RatingCount": 0
 },
 {
@@ -32,6 +35,7 @@
   "GeoCode": "t9w8w7sx6",
   "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
   "Name": "QRS Super Centre, Sreekariyam",
+  "Description": "",
   "RatingCount": 0
 },
 {
@@ -41,6 +45,7 @@
   "GeoCode": "t9w8prgp5",
   "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
   "Name": "QRS Retail Ltd, Karamana",
+  "Description": "",
   "RatingCount": 0
 },
 {
@@ -50,6 +55,7 @@
   "GeoCode": "t9w8qzdmh",
   "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
   "Name": "QRS Retail Ltd, Pattom",
+  "Description": "",
   "RatingCount": 0
 },
 {
@@ -59,6 +65,7 @@
   "GeoCode": "t9qzcnhfc",
   "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
   "Name": "QRS Retail LTD, Balaramapuram",
+  "Description": "",
   "RatingCount": 0
 },
 {
@@ -68,6 +75,7 @@
   "GeoCode": "t9wb07054",
   "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
   "Name": "QRS Retail Limited, Nemom",
+  "Description": "",
   "RatingCount": 0
 },
 {
@@ -77,6 +85,7 @@
   "GeoCode": "t9w9ebwdx",
   "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
   "Name": "QRS Retail Ltd, Attingal",
+  "Description": "",
   "RatingCount": 0
 },
 {
@@ -86,6 +95,7 @@
   "GeoCode": "t9wbbnvpt",
   "Image": "http://{host}/public/_open/image-Resize/1dfb15d633bf9a85acc14c68ea7ffe03258364c9f81469b70979b4d029b9a388.qrs_logo.jpg",
   "Name": "QRS Retail Ltd, Nedumangad",
+  "Description": "",
   "RatingCount": 0
 },
 {
@@ -95,5 +105,6 @@
   "GeoCode": "t9w8txhyd",
   "Image": "http://{host}/public/_open/image-Resize/37e83a947a61d390c1731d7fa2d04971944c27b455ca7f04093f8cb411a0e7ac.AMK.png",
   "Name": "AMK ",
+  "Description": "",
   "RatingCount": 0
 }]
