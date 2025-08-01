@@ -1,5 +1,6 @@
 [{
   "_id": "00000000-0000-0000-0000-000000000001-+-ceead30b-88f2-4234-a4c4-da34914cf4d2",
+  "RegionId": "00000000-0000-0000-0000-000000000001",
   "PartitionKey": "shop0",
   "CummilativeScore": 5,
   "GeoCode": "t9w8rhtu9",
@@ -10,6 +11,7 @@
 },
 {
   "_id": "00000000-0000-0000-0000-000000000001-+-ceead30b-88f2-4234-a4c4-da34914cf4d3",
+  "RegionId": "00000000-0000-0000-0000-000000000001",
   "PartitionKey": "chest0",
   "CummilativeScore": 5,
   "GeoCode": "t9w8rhtu8",
@@ -20,6 +22,7 @@
 },
 {
   "_id": "00000000-0000-0000-0000-000000000001-+-faa27ee9-795c-4647-8acc-354fd3548de3",
+  "RegionId": "00000000-0000-0000-0000-000000000001",
   "PartitionKey": "shop0",
   "CummilativeScore": 0,
   "GeoCode": "t9w8qfpmh",
@@ -30,6 +33,7 @@
 },
 {
   "_id": "00000000-0000-0000-0000-000000000001-+-e5563dd7-bdb6-4285-a8cd-901dd69f994f",
+  "RegionId": "00000000-0000-0000-0000-000000000001",
   "PartitionKey": "shop0",
   "CummilativeScore": 0,
   "GeoCode": "t9w8w7sx6",
@@ -40,6 +44,7 @@
 },
 {
   "_id": "00000000-0000-0000-0000-000000000001-+-776de58a-473d-4099-a6c4-7c316942b490",
+  "RegionId": "00000000-0000-0000-0000-000000000001",
   "PartitionKey": "shop0",
   "CummilativeScore": 0,
   "GeoCode": "t9w8prgp5",
@@ -50,6 +55,7 @@
 },
 {
   "_id": "00000000-0000-0000-0000-000000000001-+-5c377dcc-ecaf-4de3-8ee1-ceb176914251",
+  "RegionId": "00000000-0000-0000-0000-000000000001",
   "PartitionKey": "shop0",
   "CummilativeScore": 0,
   "GeoCode": "t9w8qzdmh",
@@ -60,6 +66,7 @@
 },
 {
   "_id": "00000000-0000-0000-0000-000000000001-+-1cfa497d-705f-4823-a45d-b06d13aaf55d",
+  "RegionId": "00000000-0000-0000-0000-000000000001",
   "PartitionKey": "shop0",
   "CummilativeScore": 0,
   "GeoCode": "t9qzcnhfc",
@@ -70,6 +77,7 @@
 },
 {
   "_id": "00000000-0000-0000-0000-000000000001-+-13d39aa7-99c3-4686-b27c-c1836b134517",
+  "RegionId": "00000000-0000-0000-0000-000000000001",
   "PartitionKey": "shop0",
   "CummilativeScore": 0,
   "GeoCode": "t9wb07054",
@@ -80,6 +88,7 @@
 },
 {
   "_id": "00000000-0000-0000-0000-000000000001-+-d21d5cd2-899c-4f39-ba94-f45841058711",
+  "RegionId": "00000000-0000-0000-0000-000000000001",
   "PartitionKey": "shop0",
   "CummilativeScore": 0,
   "GeoCode": "t9w9ebwdx",
@@ -90,6 +99,7 @@
 },
 {
   "_id": "00000000-0000-0000-0000-000000000001-+-72c0a445-467d-432b-a0f7-c302ff8f9806",
+  "RegionId": "00000000-0000-0000-0000-000000000001",
   "PartitionKey": "shop0",
   "CummilativeScore": 0,
   "GeoCode": "t9wbbnvpt",
@@ -100,6 +110,7 @@
 },
 {
   "_id": "00000000-0000-0000-0000-000000000001-+-5eda79d4-18d1-4ff1-9f47-ccc317de14b7",
+  "RegionId": "00000000-0000-0000-0000-000000000001",
   "PartitionKey": "shop0",
   "CummilativeScore": 0,
   "GeoCode": "t9w8txhyd",
