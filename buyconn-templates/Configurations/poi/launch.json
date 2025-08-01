@@ -22,7 +22,7 @@
     "game.Id":"treasure_hunt_2025-tvm",
     "game.url","https://raw.githubusercontent.com/AICorpGlobal/public-buyconn-release-artifiacts/refs/heads/master/buyconn-templates/games/treasure-hunt/treasure_hunt_2025-tvm.json",
     "game.status":"active",
-    "game.type-code":"treasure-hunt"
+    "game.type-code":"treasure-hunt.internal"
   }
   "RatingCount": 5
 },
