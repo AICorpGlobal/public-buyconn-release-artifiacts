@@ -20,6 +20,7 @@
   "Description": "Scan the qr code to find the hidden treasure",
   "Metadata" :{
     "game.Id":"treasure_hunt_2025-tvm",
+    "game.url","https://raw.githubusercontent.com/AICorpGlobal/public-buyconn-release-artifiacts/refs/heads/master/buyconn-templates/games/treasure-hunt/treasure_hunt_2025-tvm.json",
     "game.status":"active"
   }
   "RatingCount": 5
