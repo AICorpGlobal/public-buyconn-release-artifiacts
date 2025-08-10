@@ -1,6 +1,6 @@
 [{
   "notificationId":"1234",
-  "type":"Announcement"
+  "type":"Announcement",
   
   "payload":{
     "header": {
@@ -32,6 +32,6 @@
             "action": "close"
         }
     }
-}, 
+} 
   
 }]
