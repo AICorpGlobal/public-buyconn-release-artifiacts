@@ -19,7 +19,7 @@
             "text": "Start Adventure",
             "type": "navigation",
             "action": "start_game",
-            "url": "/game/start"
+            "url": "buyconn://game/{gameId}/start"
         },
         "tutorial": {
             "text": "Tutorial",
