@@ -1,0 +1,37 @@
+[{
+  "notificationId":"1234",
+  "type":"Announcement"
+  
+  "payload":{
+    "header": {
+        "title": "Treasure Hunt Adventure"
+    },
+    "body": {
+        "content": "Welcome to the Ultimate Treasure Hunt!\n\nReady to embark on an epic journey? You're about to enter a world filled with mysterious clues, hidden treasures, and exciting challenges around every corner.\n\nWhat awaits you:\n• Scan & Discover: Use your camera to scan QR codes and uncover secrets\n• Earn Rewards: Collect points and unlock exclusive prizes\n• Explore Locations: Visit real-world places to find hidden treasures\n• Compete: Challenge friends and climb the leaderboard\n\nGame Rules:\n1. Stay Safe: Always be aware of your surroundings\n2. Respect Property: Don't trespass or damage anything\n3. Have Fun: Enjoy the adventure with friends and family\n\nAre you ready to begin your quest?",
+        "type": "text",
+        "image": {
+            "uri": "https://example.com/game-start-banner.jpg",
+            "alt": "Treasure hunt adventure banner"
+        }
+    },
+    "footer": {
+        "startGame": {
+            "text": "Start Adventure",
+            "type": "navigation",
+            "action": "start_game",
+            "url": "/game/start"
+        },
+        "tutorial": {
+            "text": "Tutorial",
+            "type": "action",
+            "action": "show_tutorial"
+        },
+        "cancel": {
+            "text": "Maybe Later",
+            "type": "action",
+            "action": "close"
+        }
+    }
+}, 
+  
+}]
