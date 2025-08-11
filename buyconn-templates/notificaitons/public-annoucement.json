@@ -47,17 +47,6 @@
           "url": "buyconn://coupons/list"
         }
       },
-      "shareCoupon": {
-        "text": "Share Coupon",
-        "type": "action",
-        "action": "share_coupon",
-        "actionType": "share_coupon",
-        "actionData": {
-          "couponId": "exclusive-20-off-2024",
-          "shareMessage": "I just got an exclusive 20% OFF coupon! Use code EXCLUSIVE20",
-          "shareUrl": "https://buyconn.app/coupon/EXCLUSIVE20"
-        }
-      },
       "dismiss": {
         "text": "Dismiss",
         "type": "action",
