@@ -1,40 +1,62 @@
 {
-    "notificationId": "reward-claim-2024-001",
+    "notificationId": "coupon-reward-2024-001",
     "type": "Reward",
     "payload": {
         "header": {
-            "title": "🎁 Special Reward Unlocked!"
+            "title": "🎫 Exclusive Coupon Unlocked!"
         },
         "body": {
-            "content": "# Congratulations! 🎉\n\nYou've earned a **special reward** for completing your first treasure hunt!\n\n### Your Reward:\n- 🏆 **500 Points** added to your account\n- 🎯 **Exclusive Badge**: First Hunt Champion\n- 💰 **$10 Store Credit** for your next purchase\n\n### How to Claim:\n1. Click the **Claim Reward** button below\n2. Your points will be added automatically\n3. Store credit will be available in your account\n4. Badge will appear in your profile\n\n*Don't miss out on this exclusive reward!*",
+            "content": "# Congratulations! 🎉\\n\\nYou've earned an **exclusive coupon** for being an active user!\\n\\n### Your Coupon:\\n- 🎫 **20% OFF** on your next purchase\\n- 💰 **Valid up to $50** maximum discount\\n- ⏰ **Expires in 7 days**\\n- 🛒 **Minimum spend: $25**\\n\\n### How to Use:\\n1. Click the **Claim Coupon** button below\\n2. Your coupon will be added to your account\\n3. Apply it during checkout\\n4. Enjoy your savings!\\n\\n*Limited time offer - don't miss out!*",
             "type": "markdown",
             "image": {
                 "uri": "https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=400&h=200&fit=crop",
-                "alt": "Reward celebration with confetti and gifts"
+                "alt": "Coupon celebration with discount symbols"
             }
         },
         "footer": {
-            "claimReward": {
-                "text": "🎁 Claim Reward",
+            "claimCoupon": {
+                "text": "🎫 Claim Coupon",
                 "type": "action",
-                "action": "claim_reward",
-                "actionType": "claim_reward",
+                "action": "claim_coupon",
+                "actionType": "claim_coupon",
                 "actionData": {
-                    "rewardId": "first-hunt-reward-2024",
-                    "rewardType": "points_and_credit",
-                    "points": 500,
-                    "storeCredit": 10,
-                    "badgeId": "first-hunt-champion"
+                    "couponId": "exclusive-20-off-2024",
+                    "couponCode": "EXCLUSIVE20",
+                    "discountType": "percentage",
+                    "discountValue": 20,
+                    "maxDiscount": 50,
+                    "minSpend": 25,
+                    "expiryDate": "2024-12-31T23:59:59Z",
+                    "validityDays": 7,
+                    "usageLimit": 1,
+                    "categories": [
+                        "all"
+                    ],
+                    "exclusions": [
+                        "sale_items",
+                        "electronics"
+                    ]
                 }
             },
-            "viewProfile": {
-                "text": "View Profile",
+            "viewCoupons": {
+                "text": "View All Coupons",
                 "type": "navigation",
-                "action": "view_profile",
-                "actionType": "navigate_to_screen",
+                "action": "view_coupons_list",
+                "actionType": "view_coupons_list",
                 "actionData": {
-                    "screen": "profile",
-                    "tab": "rewards"
+                    "screen": "coupons",
+                    "tab": "available"
+                }
+            },
+            "shareCoupon": {
+                "text": "Share Coupon",
+                "type": "action",
+                "action": "share_coupon",
+                "actionType": "share_coupon",
+                "actionData": {
+                    "couponId": "exclusive-20-off-2024",
+                    "shareMessage": "I just got an exclusive 20% OFF coupon! Use code EXCLUSIVE20",
+                    "shareUrl": "https://buyconn.app/coupon/EXCLUSIVE20"
                 }
             },
             "dismiss": {
