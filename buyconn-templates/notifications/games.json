@@ -1,217 +1,197 @@
 {
   "game-new-release": {
-    "notificationId": "{{$guid}}",
-    "type": "Game",
-    "payload": {
-      "header": {
-        "title": "🎮 New Game Available!"
-      },
-      "body": {
-        "content": "# New Game Alert \n \nA brand new game has been added to BuyConn!\n\n### Game Details:\n- 🎮 **Name**: {{gameName}}\n- 📝 **Description**: {{gameDescription}}\n- 🎯 **Category**: {{gameCategory}}\n- ⭐ **Rating**: {{gameRating}}/5\n- 🏆 **Rewards**: {{gameRewards}}\n\n### Features:\n- 🎨 **Graphics**: {{graphicsQuality}}\n- 🎵 **Sound**: {{soundQuality}}\n- ⏰ **Play time**: {{playTime}}\n- 👥 **Multiplayer**: {{multiplayerSupport}}\n\n*Be among the first to try it out!*",
-        "type": "markdown",
-        "image": {
-          "uri": "{{gameImageUrl}}",
-          "alt": "{{gameName}} game preview"
+    "header": {
+      "title": "🎮 New Game Available!"
+    },
+    "body": {
+      "content": "# New Game Alert \n \nA brand new game has been added to BuyConn!\n\n### Game Details:\n- 🎮 **Name**: {{gameName}}\n- 📝 **Description**: {{gameDescription}}\n- 🎯 **Category**: {{gameCategory}}\n- ⭐ **Rating**: {{gameRating}}/5\n- 🏆 **Rewards**: {{gameRewards}}\n\n### Features:\n- 🎨 **Graphics**: {{graphicsQuality}}\n- 🎵 **Sound**: {{soundQuality}}\n- ⏰ **Play time**: {{playTime}}\n- 👥 **Multiplayer**: {{multiplayerSupport}}\n\n*Be among the first to try it out!*",
+      "type": "markdown",
+      "image": {
+        "uri": "{{gameImageUrl}}",
+        "alt": "{{gameName}} game preview"
+      }
+    },
+    "footer": {
+      "playNow": {
+        "text": "🎮 Play Now",
+        "type": "navigation",
+        "action": "play_new_game",
+        "actionType": "play_new_game",
+        "actionData": {
+          "url": "buyconn://games/{{gameId}}"
         }
       },
-      "footer": {
-        "playNow": {
-          "text": "🎮 Play Now",
-          "type": "navigation",
-          "action": "play_new_game",
-          "actionType": "play_new_game",
-          "actionData": {
-            "url": "buyconn://games/{{gameId}}"
-          }
-        },
-        "viewGames": {
-          "text": "View All Games",
-          "type": "navigation",
-          "action": "view_games",
-          "actionType": "view_games",
-          "actionData": {
-            "url": "buyconn://games"
-          }
-        },
-        "dismiss": {
-          "text": "Dismiss",
-          "type": "action",
-          "action": "dismiss",
-          "actionType": "dismiss"
+      "viewGames": {
+        "text": "View All Games",
+        "type": "navigation",
+        "action": "view_games",
+        "actionType": "view_games",
+        "actionData": {
+          "url": "buyconn://games"
         }
+      },
+      "dismiss": {
+        "text": "Dismiss",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
       }
     }
   },
   "game-update": {
-    "notificationId": "{{$guid}}",
-    "type": "Game",
-    "payload": {
-      "header": {
-        "title": "🔄 Game Update Available"
-      },
-      "body": {
-        "content": "# Game Update \n \n{{gameName}} has been updated with new features!\n\n### Update Details:\n- 📱 **Version**: {{newVersion}}\n- 📝 **What's new**: {{updateDescription}}\n- 🎮 **New features**: {{newFeatures}}\n- 🐛 **Bug fixes**: {{bugFixes}}\n- 📊 **Performance**: {{performanceImprovements}}\n\n### New Content:\n- 🎨 **New levels**: {{newLevels}}\n- 🏆 **New achievements**: {{newAchievements}}\n- 🎁 **New rewards**: {{newRewards}}\n- 🎵 **New music**: {{newMusic}}\n\n*Update now to enjoy the latest features!*",
-        "type": "markdown",
-        "image": {
-          "uri": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=200&fit=crop",
-          "alt": "Game update illustration"
+    "header": {
+      "title": "🔄 Game Update Available"
+    },
+    "body": {
+      "content": "# Game Update \n \n{{gameName}} has been updated with new features!\n\n### Update Details:\n- 📱 **Version**: {{newVersion}}\n- 📝 **What's new**: {{updateDescription}}\n- 🎮 **New features**: {{newFeatures}}\n- 🐛 **Bug fixes**: {{bugFixes}}\n- 📊 **Performance**: {{performanceImprovements}}\n\n### New Content:\n- 🎨 **New levels**: {{newLevels}}\n- 🏆 **New achievements**: {{newAchievements}}\n- 🎁 **New rewards**: {{newRewards}}\n- 🎵 **New music**: {{newMusic}}\n\n*Update now to enjoy the latest features!*",
+      "type": "markdown",
+      "image": {
+        "uri": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=200&fit=crop",
+        "alt": "Game update illustration"
+      }
+    },
+    "footer": {
+      "updateNow": {
+        "text": "🔄 Update Now",
+        "type": "action",
+        "action": "update_game",
+        "actionType": "update_game",
+        "actionData": {
+          "gameId": "{{gameId}}",
+          "version": "{{newVersion}}"
         }
       },
-      "footer": {
-        "updateNow": {
-          "text": "🔄 Update Now",
-          "type": "action",
-          "action": "update_game",
-          "actionType": "update_game",
-          "actionData": {
-            "gameId": "{{gameId}}",
-            "version": "{{newVersion}}"
-          }
-        },
-        "playGame": {
-          "text": "Play Game",
-          "type": "navigation",
-          "action": "play_game",
-          "actionType": "play_game",
-          "actionData": {
-            "url": "buyconn://games/{{gameId}}"
-          }
-        },
-        "dismiss": {
-          "text": "Dismiss",
-          "type": "action",
-          "action": "dismiss",
-          "actionType": "dismiss"
+      "playGame": {
+        "text": "Play Game",
+        "type": "navigation",
+        "action": "play_game",
+        "actionType": "play_game",
+        "actionData": {
+          "url": "buyconn://games/{{gameId}}"
         }
+      },
+      "dismiss": {
+        "text": "Dismiss",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
       }
     }
   },
   "game-leaderboard": {
-    "notificationId": "{{$guid}}",
-    "type": "Game",
-    "payload": {
-      "header": {
-        "title": "🏆 Leaderboard Update - {{gameName}}"
-      },
-      "body": {
-        "content": "# Leaderboard Results \n \nYour ranking has changed in {{gameName}}!\n\n### Your Performance:\n- 🏅 **Current rank**: #{{currentRank}}\n- 📈 **Previous rank**: #{{previousRank}}\n- 🎯 **Score**: {{currentScore}}\n- 📊 **Change**: {{rankChange}}\n- 🏆 **Best score**: {{bestScore}}\n\n### Top Players:\n- 🥇 **1st**: {{topPlayer1}} ({{score1}})\n- 🥈 **2nd**: {{topPlayer2}} ({{score2}})\n- 🥉 **3rd**: {{topPlayer3}} ({{score3}})\n\n### Weekly Reset:\n- ⏰ **Next reset**: {{nextResetTime}}\n- 🎁 **Weekly rewards**: {{weeklyRewards}}\n\n*Keep playing to climb the ranks!*",
-        "type": "markdown",
-        "image": {
-          "uri": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=200&fit=crop",
-          "alt": "Leaderboard podium"
+    "header": {
+      "title": "🏆 Leaderboard Update - {{gameName}}"
+    },
+    "body": {
+      "content": "# Leaderboard Results \n \nYour ranking has changed in {{gameName}}!\n\n### Your Performance:\n- 🏅 **Current rank**: #{{currentRank}}\n- 📈 **Previous rank**: #{{previousRank}}\n- 🎯 **Score**: {{currentScore}}\n- 📊 **Change**: {{rankChange}}\n- 🏆 **Best score**: {{bestScore}}\n\n### Top Players:\n- 🥇 **1st**: {{topPlayer1}} ({{score1}})\n- 🥈 **2nd**: {{topPlayer2}} ({{score2}})\n- 🥉 **3rd**: {{topPlayer3}} ({{score3}})\n\n### Weekly Reset:\n- ⏰ **Next reset**: {{nextResetTime}}\n- 🎁 **Weekly rewards**: {{weeklyRewards}}\n\n*Keep playing to climb the ranks!*",
+      "type": "markdown",
+      "image": {
+        "uri": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=200&fit=crop",
+        "alt": "Leaderboard podium"
+      }
+    },
+    "footer": {
+      "viewLeaderboard": {
+        "text": "🏆 View Leaderboard",
+        "type": "navigation",
+        "action": "view_leaderboard",
+        "actionType": "view_leaderboard",
+        "actionData": {
+          "url": "buyconn://games/{{gameId}}/leaderboard"
         }
       },
-      "footer": {
-        "viewLeaderboard": {
-          "text": "🏆 View Leaderboard",
-          "type": "navigation",
-          "action": "view_leaderboard",
-          "actionType": "view_leaderboard",
-          "actionData": {
-            "url": "buyconn://games/{{gameId}}/leaderboard"
-          }
-        },
-        "playAgain": {
-          "text": "Play Again",
-          "type": "navigation",
-          "action": "play_game",
-          "actionType": "play_game",
-          "actionData": {
-            "url": "buyconn://games/{{gameId}}"
-          }
-        },
-        "dismiss": {
-          "text": "Dismiss",
-          "type": "action",
-          "action": "dismiss",
-          "actionType": "dismiss"
+      "playAgain": {
+        "text": "Play Again",
+        "type": "navigation",
+        "action": "play_game",
+        "actionType": "play_game",
+        "actionData": {
+          "url": "buyconn://games/{{gameId}}"
         }
+      },
+      "dismiss": {
+        "text": "Dismiss",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
       }
     }
   },
   "game-event": {
-    "notificationId": "{{$guid}}",
-    "type": "Game",
-    "payload": {
-      "header": {
-        "title": "🎉 Special Event - {{gameName}}"
-      },
-      "body": {
-        "content": "# Special Event \n \nA special event is happening in {{gameName}}!\n\n### Event Details:\n- 🎉 **Event name**: {{eventName}}\n- ⏰ **Duration**: {{eventDuration}}\n- 🎯 **Objective**: {{eventObjective}}\n- 🏆 **Rewards**: {{eventRewards}}\n- 👥 **Participants**: {{participantCount}}\n\n### Event Features:\n- 🎨 **Special themes**: {{specialThemes}}\n- 🎵 **Event music**: {{eventMusic}}\n- 🎁 **Exclusive rewards**: {{exclusiveRewards}}\n- 📊 **Event leaderboard**: {{eventLeaderboard}}\n\n### How to Participate:\n1. Open {{gameName}}\n2. Select the event mode\n3. Complete objectives\n4. Earn special rewards!\n\n*Don't miss this limited-time event!*",
-        "type": "markdown",
-        "image": {
-          "uri": "{{eventImageUrl}}",
-          "alt": "{{eventName}} event banner"
+    "header": {
+      "title": "🎉 Special Event - {{gameName}}"
+    },
+    "body": {
+      "content": "# Special Event \n \nA special event is happening in {{gameName}}!\n\n### Event Details:\n- 🎉 **Event name**: {{eventName}}\n- ⏰ **Duration**: {{eventDuration}}\n- 🎯 **Objective**: {{eventObjective}}\n- 🏆 **Rewards**: {{eventRewards}}\n- 👥 **Participants**: {{participantCount}}\n\n### Event Features:\n- 🎨 **Special themes**: {{specialThemes}}\n- 🎵 **Event music**: {{eventMusic}}\n- 🎁 **Exclusive rewards**: {{exclusiveRewards}}\n- 📊 **Event leaderboard**: {{eventLeaderboard}}\n\n### How to Participate:\n1. Open {{gameName}}\n2. Select the event mode\n3. Complete objectives\n4. Earn special rewards!\n\n*Don't miss this limited-time event!*",
+      "type": "markdown",
+      "image": {
+        "uri": "{{eventImageUrl}}",
+        "alt": "{{eventName}} event banner"
+      }
+    },
+    "footer": {
+      "joinEvent": {
+        "text": "🎉 Join Event",
+        "type": "navigation",
+        "action": "join_event",
+        "actionType": "join_event",
+        "actionData": {
+          "url": "buyconn://games/{{gameId}}/event/{{eventId}}"
         }
       },
-      "footer": {
-        "joinEvent": {
-          "text": "🎉 Join Event",
-          "type": "navigation",
-          "action": "join_event",
-          "actionType": "join_event",
-          "actionData": {
-            "url": "buyconn://games/{{gameId}}/event/{{eventId}}"
-          }
-        },
-        "viewEvents": {
-          "text": "View All Events",
-          "type": "navigation",
-          "action": "view_events",
-          "actionType": "view_events",
-          "actionData": {
-            "url": "buyconn://games/events"
-          }
-        },
-        "dismiss": {
-          "text": "Dismiss",
-          "type": "action",
-          "action": "dismiss",
-          "actionType": "dismiss"
+      "viewEvents": {
+        "text": "View All Events",
+        "type": "navigation",
+        "action": "view_events",
+        "actionType": "view_events",
+        "actionData": {
+          "url": "buyconn://games/events"
         }
+      },
+      "dismiss": {
+        "text": "Dismiss",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
       }
     }
   },
   "game-maintenance": {
-    "notificationId": "{{$guid}}",
-    "type": "Game",
-    "payload": {
-      "header": {
-        "title": "🔧 Scheduled Maintenance - {{gameName}}"
-      },
-      "body": {
-        "content": "# Maintenance Notice \n \n{{gameName}} will be temporarily unavailable for maintenance.\n\n### Maintenance Details:\n- ⏰ **Start time**: {{startTime}}\n- ⏱️ **Duration**: {{duration}}\n- 🔧 **Purpose**: {{maintenancePurpose}}\n- 📱 **Affected**: {{affectedFeatures}}\n\n### What's Being Updated:\n- 🐛 **Bug fixes**: {{bugFixes}}\n- 🎮 **New features**: {{newFeatures}}\n- 📊 **Performance**: {{performanceImprovements}}\n- 🔒 **Security**: {{securityUpdates}}\n\n### Alternative Activities:\n- 🎮 **Try other games**\n- 🛒 **Browse products**\n- 🎁 **Check rewards**\n- 📱 **Update profile**\n\n*We apologize for any inconvenience.*",
-        "type": "markdown",
-        "image": {
-          "uri": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=200&fit=crop",
-          "alt": "Maintenance tools"
+    "header": {
+      "title": "🔧 Scheduled Maintenance - {{gameName}}"
+    },
+    "body": {
+      "content": "# Maintenance Notice \n \n{{gameName}} will be temporarily unavailable for maintenance.\n\n### Maintenance Details:\n- ⏰ **Start time**: {{startTime}}\n- ⏱️ **Duration**: {{duration}}\n- 🔧 **Purpose**: {{maintenancePurpose}}\n- 📱 **Affected**: {{affectedFeatures}}\n\n### What's Being Updated:\n- 🐛 **Bug fixes**: {{bugFixes}}\n- 🎮 **New features**: {{newFeatures}}\n- 📊 **Performance**: {{performanceImprovements}}\n- 🔒 **Security**: {{securityUpdates}}\n\n### Alternative Activities:\n- 🎮 **Try other games**\n- 🛒 **Browse products**\n- 🎁 **Check rewards**\n- 📱 **Update profile**\n\n*We apologize for any inconvenience.*",
+      "type": "markdown",
+      "image": {
+        "uri": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=200&fit=crop",
+        "alt": "Maintenance tools"
+      }
+    },
+    "footer": {
+      "viewOtherGames": {
+        "text": "🎮 Other Games",
+        "type": "navigation",
+        "action": "view_other_games",
+        "actionType": "view_other_games",
+        "actionData": {
+          "url": "buyconn://games"
         }
       },
-      "footer": {
-        "viewOtherGames": {
-          "text": "🎮 Other Games",
-          "type": "navigation",
-          "action": "view_other_games",
-          "actionType": "view_other_games",
-          "actionData": {
-            "url": "buyconn://games"
-          }
-        },
-        "shopNow": {
-          "text": "🛒 Shop Now",
-          "type": "navigation",
-          "action": "shop_now",
-          "actionType": "shop_now",
-          "actionData": {
-            "url": "buyconn://shop"
-          }
-        },
-        "dismiss": {
-          "text": "Dismiss",
-          "type": "action",
-          "action": "dismiss",
-          "actionType": "dismiss"
+      "shopNow": {
+        "text": "🛒 Shop Now",
+        "type": "navigation",
+        "action": "shop_now",
+        "actionType": "shop_now",
+        "actionData": {
+          "url": "buyconn://shop"
         }
+      },
+      "dismiss": {
+        "text": "Dismiss",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
       }
     }
   }

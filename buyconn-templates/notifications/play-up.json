@@ -1,222 +1,202 @@
 {
   "play-up-game-reward": {
-    "notificationId": "{{$guid}}",
-    "type": "PlayUp",
-    "payload": {
-      "header": {
-        "title": "🎮 Game Reward Unlocked! {{userName}}"
-      },
-      "body": {
-        "content": "# Congratulations! \n \nYou've earned a **game reward** for completing {{gameName}}!\n\n### Your Reward:\n- 🎁 **{{rewardType}}**: {{rewardDescription}}\n- 🏆 **Points earned**: {{pointsEarned}}\n- ⭐ **Achievement**: {{achievementName}}\n- 🎯 **Difficulty**: {{difficultyLevel}}\n\n### Reward Details:\n- 💰 **Value**: ${{rewardValue}}\n- ⏰ **Valid until**: {{expiryDate}}\n- 🎮 **Game**: {{gameName}}\n- 📊 **Leaderboard rank**: #{{leaderboardRank}}\n\n*Keep playing to earn more rewards!*",
-        "type": "markdown",
-        "image": {
-          "uri": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=200&fit=crop",
-          "alt": "Gaming reward celebration"
+    "header": {
+      "title": "🎮 Game Reward Unlocked! {{userName}}"
+    },
+    "body": {
+      "content": "# Congratulations! \n \nYou've earned a **game reward** for completing {{gameName}}!\n\n### Your Reward:\n- 🎁 **{{rewardType}}**: {{rewardDescription}}\n- 🏆 **Points earned**: {{pointsEarned}}\n- ⭐ **Achievement**: {{achievementName}}\n- 🎯 **Difficulty**: {{difficultyLevel}}\n\n### Reward Details:\n- 💰 **Value**: ${{rewardValue}}\n- ⏰ **Valid until**: {{expiryDate}}\n- 🎮 **Game**: {{gameName}}\n- 📊 **Leaderboard rank**: #{{leaderboardRank}}\n\n*Keep playing to earn more rewards!*",
+      "type": "markdown",
+      "image": {
+        "uri": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=200&fit=crop",
+        "alt": "Gaming reward celebration"
+      }
+    },
+    "footer": {
+      "claimReward": {
+        "text": "🎁 Claim Reward",
+        "type": "action",
+        "action": "claim_game_reward",
+        "actionType": "claim_game_reward",
+        "actionData": {
+          "rewardId": "{{rewardId}}",
+          "gameId": "{{gameId}}",
+          "rewardType": "{{rewardType}}",
+          "rewardValue": "{{rewardValue}}"
         }
       },
-      "footer": {
-        "claimReward": {
-          "text": "🎁 Claim Reward",
-          "type": "action",
-          "action": "claim_game_reward",
-          "actionType": "claim_game_reward",
-          "actionData": {
-            "rewardId": "{{rewardId}}",
-            "gameId": "{{gameId}}",
-            "rewardType": "{{rewardType}}",
-            "rewardValue": "{{rewardValue}}"
-          }
-        },
-        "playAgain": {
-          "text": "Play Again",
-          "type": "navigation",
-          "action": "play_game",
-          "actionType": "play_game",
-          "actionData": {
-            "url": "buyconn://playup/game/{{gameId}}"
-          }
-        },
-        "dismiss": {
-          "text": "Dismiss",
-          "type": "action",
-          "action": "dismiss",
-          "actionType": "dismiss"
+      "playAgain": {
+        "text": "Play Again",
+        "type": "navigation",
+        "action": "play_game",
+        "actionType": "play_game",
+        "actionData": {
+          "url": "buyconn://playup/game/{{gameId}}"
         }
+      },
+      "dismiss": {
+        "text": "Dismiss",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
       }
     }
   },
   "play-up-challenge": {
-    "notificationId": "{{$guid}}",
-    "type": "PlayUp",
-    "payload": {
-      "header": {
-        "title": "🎯 New Challenge Available!"
-      },
-      "body": {
-        "content": "# Daily Challenge \n \nA new challenge is waiting for you!\n\n### Challenge Details:\n- 🎮 **Game**: {{gameName}}\n- 🎯 **Objective**: {{challengeObjective}}\n- ⏰ **Time limit**: {{timeLimit}}\n- 🏆 **Reward**: {{challengeReward}}\n- 📊 **Difficulty**: {{difficultyLevel}}\n\n### How to Play:\n1. Open the game\n2. Complete the objective\n3. Beat the time limit\n4. Claim your reward!\n\n*Challenge expires in {{expiryTime}}*",
-        "type": "markdown",
-        "image": {
-          "uri": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=200&fit=crop",
-          "alt": "Gaming challenge illustration"
+    "header": {
+      "title": "🎯 New Challenge Available!"
+    },
+    "body": {
+      "content": "# Daily Challenge \n \nA new challenge is waiting for you!\n\n### Challenge Details:\n- 🎮 **Game**: {{gameName}}\n- 🎯 **Objective**: {{challengeObjective}}\n- ⏰ **Time limit**: {{timeLimit}}\n- 🏆 **Reward**: {{challengeReward}}\n- 📊 **Difficulty**: {{difficultyLevel}}\n\n### How to Play:\n1. Open the game\n2. Complete the objective\n3. Beat the time limit\n4. Claim your reward!\n\n*Challenge expires in {{expiryTime}}*",
+      "type": "markdown",
+      "image": {
+        "uri": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=200&fit=crop",
+        "alt": "Gaming challenge illustration"
+      }
+    },
+    "footer": {
+      "startChallenge": {
+        "text": "🎯 Start Challenge",
+        "type": "navigation",
+        "action": "start_challenge",
+        "actionType": "start_challenge",
+        "actionData": {
+          "url": "buyconn://playup/challenge/{{challengeId}}"
         }
       },
-      "footer": {
-        "startChallenge": {
-          "text": "🎯 Start Challenge",
-          "type": "navigation",
-          "action": "start_challenge",
-          "actionType": "start_challenge",
-          "actionData": {
-            "url": "buyconn://playup/challenge/{{challengeId}}"
-          }
-        },
-        "viewChallenges": {
-          "text": "View All Challenges",
-          "type": "navigation",
-          "action": "view_challenges",
-          "actionType": "view_challenges",
-          "actionData": {
-            "url": "buyconn://playup/challenges"
-          }
-        },
-        "dismiss": {
-          "text": "Dismiss",
-          "type": "action",
-          "action": "dismiss",
-          "actionType": "dismiss"
+      "viewChallenges": {
+        "text": "View All Challenges",
+        "type": "navigation",
+        "action": "view_challenges",
+        "actionType": "view_challenges",
+        "actionData": {
+          "url": "buyconn://playup/challenges"
         }
+      },
+      "dismiss": {
+        "text": "Dismiss",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
       }
     }
   },
   "play-up-achievement": {
-    "notificationId": "{{$guid}}",
-    "type": "PlayUp",
-    "payload": {
-      "header": {
-        "title": "🏆 Achievement Unlocked!"
-      },
-      "body": {
-        "content": "# New Achievement! \n \nCongratulations! You've earned a new achievement.\n\n### Achievement Details:\n- 🏆 **Title**: {{achievementTitle}}\n- 🎮 **Game**: {{gameName}}\n- 📝 **Description**: {{achievementDescription}}\n- ⭐ **Rarity**: {{achievementRarity}}\n- 🎁 **Reward**: {{achievementReward}}\n\n### Your Progress:\n- 📊 **Total achievements**: {{totalAchievements}}\n- 🎯 **Completion rate**: {{completionRate}}%\n- 🏅 **Rank**: {{achievementRank}}\n\n*Keep playing to unlock more achievements!*",
-        "type": "markdown",
-        "image": {
-          "uri": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=200&fit=crop",
-          "alt": "Achievement trophy"
+    "header": {
+      "title": "🏆 Achievement Unlocked!"
+    },
+    "body": {
+      "content": "# New Achievement! \n \nCongratulations! You've earned a new achievement.\n\n### Achievement Details:\n- 🏆 **Title**: {{achievementTitle}}\n- 🎮 **Game**: {{gameName}}\n- 📝 **Description**: {{achievementDescription}}\n- ⭐ **Rarity**: {{achievementRarity}}\n- 🎁 **Reward**: {{achievementReward}}\n\n### Your Progress:\n- 📊 **Total achievements**: {{totalAchievements}}\n- 🎯 **Completion rate**: {{completionRate}}%\n- 🏅 **Rank**: {{achievementRank}}\n\n*Keep playing to unlock more achievements!*",
+      "type": "markdown",
+      "image": {
+        "uri": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=400&h=200&fit=crop",
+        "alt": "Achievement trophy"
+      }
+    },
+    "footer": {
+      "claimAchievement": {
+        "text": "🏆 Claim Achievement",
+        "type": "action",
+        "action": "claim_achievement",
+        "actionType": "claim_achievement",
+        "actionData": {
+          "achievementId": "{{achievementId}}",
+          "gameId": "{{gameId}}"
         }
       },
-      "footer": {
-        "claimAchievement": {
-          "text": "🏆 Claim Achievement",
-          "type": "action",
-          "action": "claim_achievement",
-          "actionType": "claim_achievement",
-          "actionData": {
-            "achievementId": "{{achievementId}}",
-            "gameId": "{{gameId}}"
-          }
-        },
-        "viewAchievements": {
-          "text": "View Achievements",
-          "type": "navigation",
-          "action": "view_achievements",
-          "actionType": "view_achievements",
-          "actionData": {
-            "url": "buyconn://playup/achievements"
-          }
-        },
-        "dismiss": {
-          "text": "Dismiss",
-          "type": "action",
-          "action": "dismiss",
-          "actionType": "dismiss"
+      "viewAchievements": {
+        "text": "View Achievements",
+        "type": "navigation",
+        "action": "view_achievements",
+        "actionType": "view_achievements",
+        "actionData": {
+          "url": "buyconn://playup/achievements"
         }
+      },
+      "dismiss": {
+        "text": "Dismiss",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
       }
     }
   },
   "play-up-tournament": {
-    "notificationId": "{{$guid}}",
-    "type": "PlayUp",
-    "payload": {
-      "header": {
-        "title": "🏅 Tournament Starting Soon!"
-      },
-      "body": {
-        "content": "# Tournament Alert \n \nA new tournament is about to begin!\n\n### Tournament Details:\n- 🏆 **Name**: {{tournamentName}}\n- 🎮 **Game**: {{gameName}}\n- ⏰ **Starts**: {{startTime}}\n- ⏱️ **Duration**: {{duration}}\n- 💰 **Prize pool**: ${{prizePool}}\n- 👥 **Participants**: {{participantCount}}\n\n### How to Join:\n1. Register before {{registrationDeadline}}\n2. Practice the game\n3. Compete with others\n4. Win amazing prizes!\n\n*Don't miss this opportunity!*",
-        "type": "markdown",
-        "image": {
-          "uri": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=200&fit=crop",
-          "alt": "Tournament competition"
+    "header": {
+      "title": "🏅 Tournament Starting Soon!"
+    },
+    "body": {
+      "content": "# Tournament Alert \n \nA new tournament is about to begin!\n\n### Tournament Details:\n- 🏆 **Name**: {{tournamentName}}\n- 🎮 **Game**: {{gameName}}\n- ⏰ **Starts**: {{startTime}}\n- ⏱️ **Duration**: {{duration}}\n- 💰 **Prize pool**: ${{prizePool}}\n- 👥 **Participants**: {{participantCount}}\n\n### How to Join:\n1. Register before {{registrationDeadline}}\n2. Practice the game\n3. Compete with others\n4. Win amazing prizes!\n\n*Don't miss this opportunity!*",
+      "type": "markdown",
+      "image": {
+        "uri": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=200&fit=crop",
+        "alt": "Tournament competition"
+      }
+    },
+    "footer": {
+      "registerTournament": {
+        "text": "🏅 Register Now",
+        "type": "action",
+        "action": "register_tournament",
+        "actionType": "register_tournament",
+        "actionData": {
+          "tournamentId": "{{tournamentId}}",
+          "gameId": "{{gameId}}"
         }
       },
-      "footer": {
-        "registerTournament": {
-          "text": "🏅 Register Now",
-          "type": "action",
-          "action": "register_tournament",
-          "actionType": "register_tournament",
-          "actionData": {
-            "tournamentId": "{{tournamentId}}",
-            "gameId": "{{gameId}}"
-          }
-        },
-        "viewTournaments": {
-          "text": "View Tournaments",
-          "type": "navigation",
-          "action": "view_tournaments",
-          "actionType": "view_tournaments",
-          "actionData": {
-            "url": "buyconn://playup/tournaments"
-          }
-        },
-        "dismiss": {
-          "text": "Dismiss",
-          "type": "action",
-          "action": "dismiss",
-          "actionType": "dismiss"
+      "viewTournaments": {
+        "text": "View Tournaments",
+        "type": "navigation",
+        "action": "view_tournaments",
+        "actionType": "view_tournaments",
+        "actionData": {
+          "url": "buyconn://playup/tournaments"
         }
+      },
+      "dismiss": {
+        "text": "Dismiss",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
       }
     }
   },
   "play-up-level-up": {
-    "notificationId": "{{$guid}}",
-    "type": "PlayUp",
-    "payload": {
-      "header": {
-        "title": "⭐ Level Up! {{userName}}"
-      },
-      "body": {
-        "content": "# Congratulations! \n \nYou've reached level {{newLevel}} in {{gameName}}!\n\n### Level Progress:\n- ⭐ **New Level**: {{newLevel}}\n- 📈 **Experience**: {{totalExperience}}\n- 🎯 **Next level**: {{nextLevelExperience}} XP needed\n- 🏆 **Rank**: {{playerRank}}\n\n### Level Rewards:\n- 🎁 **Unlocked**: {{unlockedFeatures}}\n- 💰 **Bonus**: {{levelBonus}}\n- 🎮 **New content**: {{newContent}}\n\n*Keep playing to reach higher levels!*",
-        "type": "markdown",
-        "image": {
-          "uri": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=200&fit=crop",
-          "alt": "Level up celebration"
+    "header": {
+      "title": "⭐ Level Up! {{userName}}"
+    },
+    "body": {
+      "content": "# Congratulations! \n \nYou've reached level {{newLevel}} in {{gameName}}!\n\n### Level Progress:\n- ⭐ **New Level**: {{newLevel}}\n- 📈 **Experience**: {{totalExperience}}\n- 🎯 **Next level**: {{nextLevelExperience}} XP needed\n- 🏆 **Rank**: {{playerRank}}\n\n### Level Rewards:\n- 🎁 **Unlocked**: {{unlockedFeatures}}\n- 💰 **Bonus**: {{levelBonus}}\n- 🎮 **New content**: {{newContent}}\n\n*Keep playing to reach higher levels!*",
+      "type": "markdown",
+      "image": {
+        "uri": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=400&h=200&fit=crop",
+        "alt": "Level up celebration"
+      }
+    },
+    "footer": {
+      "claimLevelReward": {
+        "text": "🎁 Claim Reward",
+        "type": "action",
+        "action": "claim_level_reward",
+        "actionType": "claim_level_reward",
+        "actionData": {
+          "level": "{{newLevel}}",
+          "gameId": "{{gameId}}"
         }
       },
-      "footer": {
-        "claimLevelReward": {
-          "text": "🎁 Claim Reward",
-          "type": "action",
-          "action": "claim_level_reward",
-          "actionType": "claim_level_reward",
-          "actionData": {
-            "level": "{{newLevel}}",
-            "gameId": "{{gameId}}"
-          }
-        },
-        "continuePlaying": {
-          "text": "Continue Playing",
-          "type": "navigation",
-          "action": "continue_playing",
-          "actionType": "continue_playing",
-          "actionData": {
-            "url": "buyconn://playup/game/{{gameId}}"
-          }
-        },
-        "dismiss": {
-          "text": "Dismiss",
-          "type": "action",
-          "action": "dismiss",
-          "actionType": "dismiss"
+      "continuePlaying": {
+        "text": "Continue Playing",
+        "type": "navigation",
+        "action": "continue_playing",
+        "actionType": "continue_playing",
+        "actionData": {
+          "url": "buyconn://playup/game/{{gameId}}"
         }
+      },
+      "dismiss": {
+        "text": "Dismiss",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
       }
     }
   }

@@ -1,8 +1,6 @@
 {
   "announcement-app-update": {
-    "notificationId": "{{$guid}}",
-    "type": "Announcement",
-    "payload": {
+   
       "header": {
         "title": "🔄 App Update Available"
       },
@@ -41,12 +39,9 @@
           "actionType": "dismiss"
         }
       }
-    }
   },
   "announcement-feature-launch": {
-    "notificationId": "{{$guid}}",
-    "type": "Announcement",
-    "payload": {
+   
       "header": {
         "title": "🚀 New Feature Launch!"
       },
@@ -84,12 +79,9 @@
           "actionType": "dismiss"
         }
       }
-    }
   },
   "announcement-maintenance": {
-    "notificationId": "{{$guid}}",
-    "type": "Announcement",
-    "payload": {
+   
       "header": {
         "title": "🔧 Scheduled Maintenance Notice"
       },
@@ -127,7 +119,6 @@
           "actionType": "dismiss"
         }
       }
-    }
   },
   "announcement-security": {
     "notificationId": "{{$guid}}",
@@ -170,12 +161,9 @@
           "actionType": "dismiss"
         }
       }
-    }
   },
   "announcement-policy": {
-    "notificationId": "{{$guid}}",
-    "type": "Announcement",
-    "payload": {
+   
       "header": {
         "title": "📋 Policy Update Notice"
       },

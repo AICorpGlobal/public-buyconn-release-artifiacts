@@ -1,87 +1,79 @@
 {
   "user-login-success": {
-    "notificationId": "{{$guid}}",
-    "type": "User",
-    "payload": {
-      "header": {
-        "title": "👋 Welcome back, {{userName}}!"
-      },
-      "body": {
-        "content": "# Login Successful \n \nYou've successfully logged into your BuyConn account.\n\n### Account Status:\n- ✅ **Last login**: {{lastLoginTime}}\n- 📍 **Location**: {{loginLocation}}\n- 🔒 **Security**: 2FA {{twoFactorStatus}}\n\n### Quick Actions:\n- View your recent orders\n- Check your rewards balance\n- Update your profile\n\n*Stay connected and enjoy shopping!*",
-        "type": "markdown",
-        "image": {
-          "uri": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=200&fit=crop",
-          "alt": "Welcome back illustration"
+    "header": {
+      "title": "👋 Welcome back, {{userName}}!"
+    },
+    "body": {
+      "content": "# Login Successful \n \nYou've successfully logged into your BuyConn account.\n\n### Account Status:\n- ✅ **Last login**: {{lastLoginTime}}\n- 📍 **Location**: {{loginLocation}}\n- 🔒 **Security**: 2FA {{twoFactorStatus}}\n\n### Quick Actions:\n- View your recent orders\n- Check your rewards balance\n- Update your profile\n\n*Stay connected and enjoy shopping!*",
+      "type": "markdown",
+      "image": {
+        "uri": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=200&fit=crop",
+        "alt": "Welcome back illustration"
+      }
+    },
+    "footer": {
+      "viewProfile": {
+        "text": "View Profile",
+        "type": "navigation",
+        "action": "view_profile",
+        "actionType": "view_profile",
+        "actionData": {
+          "url": "buyconn://profile"
         }
       },
-      "footer": {
-        "viewProfile": {
-          "text": "View Profile",
-          "type": "navigation",
-          "action": "view_profile",
-          "actionType": "view_profile",
-          "actionData": {
-            "url": "buyconn://profile"
-          }
-        },
-        "viewOrders": {
-          "text": "My Orders",
-          "type": "navigation",
-          "action": "view_orders",
-          "actionType": "view_orders",
-          "actionData": {
-            "url": "buyconn://orders"
-          }
-        },
-        "dismiss": {
-          "text": "Dismiss",
-          "type": "action",
-          "action": "dismiss",
-          "actionType": "dismiss"
+      "viewOrders": {
+        "text": "My Orders",
+        "type": "navigation",
+        "action": "view_orders",
+        "actionType": "view_orders",
+        "actionData": {
+          "url": "buyconn://orders"
         }
+      },
+      "dismiss": {
+        "text": "Dismiss",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
       }
     }
   },
   "user-profile-updated": {
-    "notificationId": "{{$guid}}",
-    "type": "User",
-    "payload": {
-      "header": {
-        "title": "✅ Profile Updated Successfully"
-      },
-      "body": {
-        "content": "# Profile Changes Saved \n \nYour profile information has been updated successfully.\n\n### Updated Fields:\n- 📝 **{{updatedFields}}**\n- ⏰ **Updated at**: {{updateTime}}\n\n### What's Next:\n- Your changes are now active\n- You can continue shopping\n- Check your updated profile\n\n*Thank you for keeping your information current!*",
-        "type": "markdown",
-        "image": {
-          "uri": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=200&fit=crop",
-          "alt": "Profile update confirmation"
+    "header": {
+      "title": "✅ Profile Updated Successfully"
+    },
+    "body": {
+      "content": "# Profile Changes Saved \n \nYour profile information has been updated successfully.\n\n### Updated Fields:\n- 📝 **{{updatedFields}}**\n- ⏰ **Updated at**: {{updateTime}}\n\n### What's Next:\n- Your changes are now active\n- You can continue shopping\n- Check your updated profile\n\n*Thank you for keeping your information current!*",
+      "type": "markdown",
+      "image": {
+        "uri": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=200&fit=crop",
+        "alt": "Profile update confirmation"
+      }
+    },
+    "footer": {
+      "viewProfile": {
+        "text": "View Profile",
+        "type": "navigation",
+        "action": "view_profile",
+        "actionType": "view_profile",
+        "actionData": {
+          "url": "buyconn://profile"
         }
       },
-      "footer": {
-        "viewProfile": {
-          "text": "View Profile",
-          "type": "navigation",
-          "action": "view_profile",
-          "actionType": "view_profile",
-          "actionData": {
-            "url": "buyconn://profile"
-          }
-        },
-        "continueShopping": {
-          "text": "Continue Shopping",
-          "type": "navigation",
-          "action": "continue_shopping",
-          "actionType": "continue_shopping",
-          "actionData": {
-            "url": "buyconn://home"
-          }
-        },
-        "dismiss": {
-          "text": "Dismiss",
-          "type": "action",
-          "action": "dismiss",
-          "actionType": "dismiss"
+      "continueShopping": {
+        "text": "Continue Shopping",
+        "type": "navigation",
+        "action": "continue_shopping",
+        "actionType": "continue_shopping",
+        "actionData": {
+          "url": "buyconn://home"
         }
+      },
+      "dismiss": {
+        "text": "Dismiss",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
       }
     }
   },
@@ -127,12 +119,8 @@
           "actionType": "dismiss"
         }
       }
-    }
-  },
-  "user-account-verification": {
-    "notificationId": "{{$guid}}",
-    "type": "User",
-    "payload": {
+    },
+    "user-account-verification": {
       "header": {
         "title": "📧 Verify Your Email Address"
       },
@@ -170,12 +158,8 @@
           "actionType": "dismiss"
         }
       }
-    }
-  },
-  "user-password-reset": {
-    "notificationId": "{{$guid}}",
-    "type": "Security",
-    "payload": {
+    },
+    "user-password-reset": {
       "header": {
         "title": "🔑 Password Reset Request"
       },
