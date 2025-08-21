@@ -1,0 +1,218 @@
+{
+    "order-confirmation": {
+        "notificationId": "{{$guid}}",
+        "type": "Order",
+        "payload": {
+            "header": {
+                "title": "✅ Order Confirmed - #{{orderNumber}}"
+            },
+            "body": {
+                "content": "# Order Confirmation \n \nYour order has been successfully placed!\n\n### Order Details:\n- 📦 **Order #**: {{orderNumber}}\n- 📅 **Order date**: {{orderDate}}\n- 💰 **Total amount**: ${{orderTotal}}\n- 🛒 **Items**: {{itemCount}} items\n- 📍 **Shipping to**: {{shippingAddress}}\n\n### Order Summary:\n- 🎯 **Status**: Confirmed\n- ⏰ **Estimated delivery**: {{estimatedDelivery}}\n- 🚚 **Shipping method**: {{shippingMethod}}\n- 💳 **Payment method**: {{paymentMethod}}\n\n### Next Steps:\n1. **Order processing** (1-2 business days)\n2. **Shipping preparation**\n3. **Tracking information** will be sent\n4. **Delivery confirmation**\n\n*Thank you for your purchase!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop",
+                    "alt": "Order confirmation"
+                }
+            },
+            "footer": {
+                "viewOrder": {
+                    "text": "📦 View Order",
+                    "type": "navigation",
+                    "action": "view_order",
+                    "actionType": "view_order",
+                    "actionData": {
+                        "url": "buyconn://orders/{{orderId}}"
+                    }
+                },
+                "trackOrder": {
+                    "text": "🚚 Track Order",
+                    "type": "navigation",
+                    "action": "track_order",
+                    "actionType": "track_order",
+                    "actionData": {
+                        "url": "buyconn://orders/{{orderId}}/track"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "order-shipped": {
+        "notificationId": "{{$guid}}",
+        "type": "Order",
+        "payload": {
+            "header": {
+                "title": "🚚 Order Shipped - #{{orderNumber}}"
+            },
+            "body": {
+                "content": "# Your Order is on the Way! \n \nGreat news! Your order has been shipped.\n\n### Shipping Details:\n- 📦 **Order #**: {{orderNumber}}\n- 🚚 **Carrier**: {{carrierName}}\n- 📋 **Tracking #**: {{trackingNumber}}\n- 📅 **Shipped date**: {{shippedDate}}\n- ⏰ **Estimated delivery**: {{estimatedDelivery}}\n\n### Package Information:\n- 📏 **Weight**: {{packageWeight}}\n- 📦 **Dimensions**: {{packageDimensions}}\n- 🎯 **Service level**: {{serviceLevel}}\n- 📍 **Destination**: {{destination}}\n\n### Tracking Updates:\n- 📱 **Real-time tracking** available\n- 🔔 **Delivery notifications** enabled\n- 📍 **Location updates** every 4 hours\n- ✅ **Signature required**: {{signatureRequired}}\n\n*Your package is on its way to you!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=400&h=200&fit=crop",
+                    "alt": "Package shipping"
+                }
+            },
+            "footer": {
+                "trackPackage": {
+                    "text": "🚚 Track Package",
+                    "type": "navigation",
+                    "action": "track_package",
+                    "actionType": "track_package",
+                    "actionData": {
+                        "url": "buyconn://orders/{{orderId}}/track",
+                        "trackingNumber": "{{trackingNumber}}"
+                    }
+                },
+                "viewOrder": {
+                    "text": "📦 View Order",
+                    "type": "navigation",
+                    "action": "view_order",
+                    "actionType": "view_order",
+                    "actionData": {
+                        "url": "buyconn://orders/{{orderId}}"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "order-delivered": {
+        "notificationId": "{{$guid}}",
+        "type": "Order",
+        "payload": {
+            "header": {
+                "title": "📦 Order Delivered - #{{orderNumber}}"
+            },
+            "body": {
+                "content": "# Package Delivered! \n \nYour order has been successfully delivered.\n\n### Delivery Details:\n- 📦 **Order #**: {{orderNumber}}\n- 📅 **Delivered**: {{deliveryDate}}\n- ⏰ **Time**: {{deliveryTime}}\n- 📍 **Location**: {{deliveryLocation}}\n- 👤 **Received by**: {{receivedBy}}\n\n### What's Next:\n- ✅ **Inspect your items**\n- 📝 **Leave a review** (optional)\n- 🔄 **Return policy**: 30 days\n- 💬 **Contact support** if needed\n\n### Review Your Purchase:\n- ⭐ **Rate your experience**\n- 📝 **Share your thoughts**\n- 🎁 **Earn rewards** for reviews\n- 📸 **Share photos** of your items\n\n*Enjoy your purchase! Thank you for choosing BuyConn.*",
+                "type": "markdown",
+                "image": {
+                    "uri": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=200&fit=crop",
+                    "alt": "Package delivered"
+                }
+            },
+            "footer": {
+                "leaveReview": {
+                    "text": "⭐ Leave Review",
+                    "type": "navigation",
+                    "action": "leave_review",
+                    "actionType": "leave_review",
+                    "actionData": {
+                        "url": "buyconn://orders/{{orderId}}/review"
+                    }
+                },
+                "viewOrder": {
+                    "text": "📦 View Order",
+                    "type": "navigation",
+                    "action": "view_order",
+                    "actionType": "view_order",
+                    "actionData": {
+                        "url": "buyconn://orders/{{orderId}}"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "order-delayed": {
+        "notificationId": "{{$guid}}",
+        "type": "Order",
+        "payload": {
+            "header": {
+                "title": "⏰ Order Delayed - #{{orderNumber}}"
+            },
+            "body": {
+                "content": "# Delivery Update \n \nWe're sorry, but your order delivery has been delayed.\n\n### Delay Details:\n- 📦 **Order #**: {{orderNumber}}\n- ⏰ **Original delivery**: {{originalDelivery}}\n- 📅 **New delivery**: {{newDelivery}}\n- 🚚 **Carrier**: {{carrierName}}\n- 📋 **Tracking #**: {{trackingNumber}}\n\n### Reason for Delay:\n- 🌦️ **Weather conditions**: {{weatherDelay}}\n- 🚚 **Carrier delay**: {{carrierDelay}}\n- 📦 **Package processing**: {{processingDelay}}\n- 🛣️ **Route adjustment**: {{routeDelay}}\n\n### What We're Doing:\n- 📞 **Monitoring closely**\n- 🚚 **Working with carrier**\n- 📱 **Updating tracking**\n- 💬 **Keeping you informed**\n\n### Compensation:\n- 🎁 **Delay compensation**: {{compensation}}\n- 💰 **Refund options**: {{refundOptions}}\n- 📞 **Support available**: 24/7\n\n*We apologize for the inconvenience and appreciate your patience.*",
+                "type": "markdown",
+                "image": {
+                    "uri": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=200&fit=crop",
+                    "alt": "Delivery delay"
+                }
+            },
+            "footer": {
+                "trackOrder": {
+                    "text": "🚚 Track Order",
+                    "type": "navigation",
+                    "action": "track_order",
+                    "actionType": "track_order",
+                    "actionData": {
+                        "url": "buyconn://orders/{{orderId}}/track"
+                    }
+                },
+                "contactSupport": {
+                    "text": "📞 Contact Support",
+                    "type": "navigation",
+                    "action": "contact_support",
+                    "actionType": "contact_support",
+                    "actionData": {
+                        "url": "buyconn://support"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "order-cancelled": {
+        "notificationId": "{{$guid}}",
+        "type": "Order",
+        "payload": {
+            "header": {
+                "title": "❌ Order Cancelled - #{{orderNumber}}"
+            },
+            "body": {
+                "content": "# Order Cancellation \n \nYour order has been cancelled as requested.\n\n### Cancellation Details:\n- 📦 **Order #**: {{orderNumber}}\n- 📅 **Cancelled date**: {{cancelledDate}}\n- 💰 **Order total**: ${{orderTotal}}\n- 🎯 **Status**: Cancelled\n- 📝 **Reason**: {{cancellationReason}}\n\n### Refund Information:\n- 💳 **Refund method**: {{refundMethod}}\n- ⏰ **Processing time**: {{refundTime}}\n- 💰 **Refund amount**: ${{refundAmount}}\n- 📧 **Confirmation**: {{refundConfirmation}}\n\n### What Happens Next:\n- 💳 **Refund processing** (3-5 business days)\n- 📧 **Email confirmation** sent\n- 🏦 **Bank processing** (additional 2-3 days)\n- ✅ **Refund complete** notification\n\n### Alternative Options:\n- 🛒 **Browse similar items**\n- 🎁 **Check our deals**\n- 📞 **Contact support** for help\n\n*We're sorry to see you go. Come back anytime!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=200&fit=crop",
+                    "alt": "Order cancellation"
+                }
+            },
+            "footer": {
+                "browseProducts": {
+                    "text": "🛒 Browse Products",
+                    "type": "navigation",
+                    "action": "browse_products",
+                    "actionType": "browse_products",
+                    "actionData": {
+                        "url": "buyconn://shop"
+                    }
+                },
+                "contactSupport": {
+                    "text": "📞 Contact Support",
+                    "type": "navigation",
+                    "action": "contact_support",
+                    "actionType": "contact_support",
+                    "actionData": {
+                        "url": "buyconn://support"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,218 @@
+{
+  "announcement-app-update": {
+    "notificationId": "{{$guid}}",
+    "type": "Announcement",
+    "payload": {
+      "header": {
+        "title": "🔄 App Update Available"
+      },
+      "body": {
+        "content": "# New App Version \n \nA new version of BuyConn is now available!\n\n### Update Highlights:\n- 📱 **Version**: {{newVersion}}\n- 🆕 **New features**: {{newFeatures}}\n- 🐛 **Bug fixes**: {{bugFixes}}\n- 📊 **Performance**: {{performanceImprovements}}\n- 🔒 **Security**: {{securityUpdates}}\n\n### What's New:\n- 🎮 **Enhanced gaming experience**\n- 🛒 **Improved shopping features**\n- 🎁 **Better rewards system**\n- 📱 **UI/UX improvements**\n- 🔔 **Enhanced notifications**\n\n### Update Benefits:\n- ⚡ **Faster performance**\n- 🔒 **Better security**\n- 🎯 **New features**\n- 🐛 **Bug fixes**\n\n*Update now to enjoy the latest features!*",
+        "type": "markdown",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+          "alt": "App update illustration"
+        }
+      },
+      "footer": {
+        "updateNow": {
+          "text": "🔄 Update Now",
+          "type": "action",
+          "action": "update_app",
+          "actionType": "update_app",
+          "actionData": {
+            "version": "{{newVersion}}",
+            "updateUrl": "{{updateUrl}}"
+          }
+        },
+        "learnMore": {
+          "text": "Learn More",
+          "type": "navigation",
+          "action": "learn_more",
+          "actionType": "learn_more",
+          "actionData": {
+            "url": "buyconn://updates/{{updateId}}"
+          }
+        },
+        "dismiss": {
+          "text": "Dismiss",
+          "type": "action",
+          "action": "dismiss",
+          "actionType": "dismiss"
+        }
+      }
+    }
+  },
+  "announcement-feature-launch": {
+    "notificationId": "{{$guid}}",
+    "type": "Announcement",
+    "payload": {
+      "header": {
+        "title": "🚀 New Feature Launch!"
+      },
+      "body": {
+        "content": "# Feature Announcement \n \nWe're excited to announce a new feature!\n\n### New Feature:\n- 🚀 **Feature name**: {{featureName}}\n- 📝 **Description**: {{featureDescription}}\n- 🎯 **Purpose**: {{featurePurpose}}\n- 👥 **Availability**: {{availability}}\n\n### What You Can Do:\n- 🎮 **Enhanced gaming**\n- 🛒 **Better shopping**\n- 🎁 **More rewards**\n- 📱 **Improved experience**\n\n### How to Use:\n1. **Open the app**\n2. **Navigate to the feature**\n3. **Explore the new functionality**\n4. **Enjoy the enhanced experience!**\n\n### Benefits:\n- ⚡ **Faster and easier**\n- 🎯 **More personalized**\n- 🎁 **Better rewards**\n- 📱 **Improved interface**\n\n*Try it out now and let us know what you think!*",
+        "type": "markdown",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+          "alt": "New feature launch"
+        }
+      },
+      "footer": {
+        "tryFeature": {
+          "text": "🚀 Try Now",
+          "type": "navigation",
+          "action": "try_feature",
+          "actionType": "try_feature",
+          "actionData": {
+            "url": "buyconn://feature/{{featureId}}"
+          }
+        },
+        "learnMore": {
+          "text": "Learn More",
+          "type": "navigation",
+          "action": "learn_more",
+          "actionType": "learn_more",
+          "actionData": {
+            "url": "buyconn://features/{{featureId}}"
+          }
+        },
+        "dismiss": {
+          "text": "Dismiss",
+          "type": "action",
+          "action": "dismiss",
+          "actionType": "dismiss"
+        }
+      }
+    }
+  },
+  "announcement-maintenance": {
+    "notificationId": "{{$guid}}",
+    "type": "Announcement",
+    "payload": {
+      "header": {
+        "title": "🔧 Scheduled Maintenance Notice"
+      },
+      "body": {
+        "content": "# Maintenance Alert \n \nBuyConn will be temporarily unavailable for scheduled maintenance.\n\n### Maintenance Details:\n- ⏰ **Start time**: {{startTime}}\n- ⏱️ **Duration**: {{duration}}\n- 🔧 **Purpose**: {{maintenancePurpose}}\n- 📱 **Affected services**: {{affectedServices}}\n\n### What's Being Updated:\n- 🐛 **Bug fixes and improvements**\n- 🔒 **Security enhancements**\n- 📊 **Performance optimizations**\n- 🎮 **New features preparation**\n\n### During Maintenance:\n- 📱 **App may be unavailable**\n- 🛒 **Shopping features paused**\n- 🎮 **Games temporarily offline**\n- 🔔 **Notifications paused**\n\n### After Maintenance:\n- ⚡ **Faster performance**\n- 🔒 **Enhanced security**\n- 🎯 **New features**\n- 🐛 **Bug fixes**\n\n*We apologize for any inconvenience. Thank you for your patience!*",
+        "type": "markdown",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=200&fit=crop",
+          "alt": "Maintenance illustration"
+        }
+      },
+      "footer": {
+        "checkStatus": {
+          "text": "📊 Check Status",
+          "type": "navigation",
+          "action": "check_status",
+          "actionType": "check_status",
+          "actionData": {
+            "url": "buyconn://status"
+          }
+        },
+        "learnMore": {
+          "text": "Learn More",
+          "type": "navigation",
+          "action": "learn_more",
+          "actionType": "learn_more",
+          "actionData": {
+            "url": "buyconn://maintenance/{{maintenanceId}}"
+          }
+        },
+        "dismiss": {
+          "text": "Dismiss",
+          "type": "action",
+          "action": "dismiss",
+          "actionType": "dismiss"
+        }
+      }
+    }
+  },
+  "announcement-security": {
+    "notificationId": "{{$guid}}",
+    "type": "Security",
+    "payload": {
+      "header": {
+        "title": "🔒 Important Security Update"
+      },
+      "body": {
+        "content": "# Security Notice \n \nWe've implemented important security updates to protect your account.\n\n### Security Updates:\n- 🔒 **Enhanced encryption**\n- 🛡️ **Improved authentication**\n- 🔐 **Better password protection**\n- 📱 **Device verification**\n\n### What This Means:\n- ✅ **Your data is safer**\n- 🔐 **Better account protection**\n- 🛡️ **Enhanced privacy**\n- 📊 **Improved monitoring**\n\n### Recommended Actions:\n1. **Update your password** if prompted\n2. **Enable 2FA** for extra security\n3. **Review your account settings**\n4. **Report any suspicious activity**\n\n### Your Security:\n- 🔒 **We never ask for passwords via email**\n- 📱 **Always use official app**\n- 🛡️ **Enable all security features**\n- 📊 **Monitor account activity**\n\n*Your security is our top priority!*",
+        "type": "markdown",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=200&fit=crop",
+          "alt": "Security shield"
+        }
+      },
+      "footer": {
+        "updateSecurity": {
+          "text": "🔒 Update Security",
+          "type": "navigation",
+          "action": "update_security",
+          "actionType": "update_security",
+          "actionData": {
+            "url": "buyconn://security"
+          }
+        },
+        "learnMore": {
+          "text": "Learn More",
+          "type": "navigation",
+          "action": "learn_more",
+          "actionType": "learn_more",
+          "actionData": {
+            "url": "buyconn://security/updates"
+          }
+        },
+        "dismiss": {
+          "text": "Dismiss",
+          "type": "action",
+          "action": "dismiss",
+          "actionType": "dismiss"
+        }
+      }
+    }
+  },
+  "announcement-policy": {
+    "notificationId": "{{$guid}}",
+    "type": "Announcement",
+    "payload": {
+      "header": {
+        "title": "📋 Policy Update Notice"
+      },
+      "body": {
+        "content": "# Policy Update \n \nWe've updated our terms and policies to better serve you.\n\n### Updated Policies:\n- 📋 **Terms of Service**: {{termsUpdate}}\n- 🔒 **Privacy Policy**: {{privacyUpdate}}\n- 🛒 **Return Policy**: {{returnUpdate}}\n- 🎮 **Gaming Terms**: {{gamingUpdate}}\n\n### Key Changes:\n- ✅ **Better user protection**\n- 🔒 **Enhanced privacy**\n- 🛒 **Improved shopping experience**\n- 🎮 **Clearer gaming rules**\n\n### What You Need to Know:\n- 📱 **No action required from you**\n- 🔒 **Your rights are protected**\n- 🛒 **Shopping experience unchanged**\n- 🎮 **Gaming continues as usual**\n\n### Effective Date:\n- 📅 **New policies effective**: {{effectiveDate}}\n- 📋 **Review full policies**: {{policyUrl}}\n\n*These updates ensure better service and protection for all users.*",
+        "type": "markdown",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+          "alt": "Policy document"
+        }
+      },
+      "footer": {
+        "reviewPolicies": {
+          "text": "📋 Review Policies",
+          "type": "navigation",
+          "action": "review_policies",
+          "actionType": "review_policies",
+          "actionData": {
+            "url": "buyconn://policies"
+          }
+        },
+        "learnMore": {
+          "text": "Learn More",
+          "type": "navigation",
+          "action": "learn_more",
+          "actionType": "learn_more",
+          "actionData": {
+            "url": "buyconn://policies/changes"
+          }
+        },
+        "dismiss": {
+          "text": "Dismiss",
+          "type": "action",
+          "action": "dismiss",
+          "actionType": "dismiss"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,219 @@
+{
+    "product-price-drop": {
+        "notificationId": "{{$guid}}",
+        "type": "Product",
+        "payload": {
+            "header": {
+                "title": "💰 Price Drop Alert!"
+            },
+            "body": {
+                "content": "# Price Drop! \n \n{{productName}} is now on sale!\n\n### Price Details:\n- 📦 **Product**: {{productName}}\n- 💰 **Old price**: ${{oldPrice}}\n- 💸 **New price**: ${{newPrice}}\n- 📉 **Savings**: ${{savings}} ({{discountPercentage}}%)\n- ⏰ **Sale ends**: {{saleEndDate}}\n\n### Product Information:\n- ⭐ **Rating**: {{productRating}}/5\n- 📝 **Reviews**: {{reviewCount}} reviews\n- 🚚 **Shipping**: {{shippingInfo}}\n- 🎯 **Availability**: {{availability}}\n\n### Why Buy Now:\n- 💰 **Limited time offer**\n- 🎁 **Free shipping** available\n- 🔄 **Easy returns**\n- 💳 **Secure payment**\n\n### Similar Deals:\n- 🛒 **Browse more sales**\n- 🎯 **Personalized recommendations**\n- 💰 **Price drop alerts**\n\n*Don't miss this great deal!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "{{productImageUrl}}",
+                    "alt": "{{productName}} product image"
+                }
+            },
+            "footer": {
+                "buyNow": {
+                    "text": "🛒 Buy Now",
+                    "type": "navigation",
+                    "action": "buy_product",
+                    "actionType": "buy_product",
+                    "actionData": {
+                        "url": "buyconn://products/{{productId}}"
+                    }
+                },
+                "addToCart": {
+                    "text": "📦 Add to Cart",
+                    "type": "action",
+                    "action": "add_to_cart",
+                    "actionType": "add_to_cart",
+                    "actionData": {
+                        "productId": "{{productId}}",
+                        "quantity": 1
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "product-back-in-stock": {
+        "notificationId": "{{$guid}}",
+        "type": "Product",
+        "payload": {
+            "header": {
+                "title": "📦 Back in Stock - {{productName}}"
+            },
+            "body": {
+                "content": "# Product Available Again! \n \n{{productName}} is back in stock!\n\n### Product Details:\n- 📦 **Product**: {{productName}}\n- 💰 **Price**: ${{productPrice}}\n- 📊 **Stock**: {{stockQuantity}} available\n- ⏰ **Restocked**: {{restockDate}}\n- 🎯 **Availability**: Limited time\n\n### Product Features:\n- ⭐ **Rating**: {{productRating}}/5\n- 📝 **Reviews**: {{reviewCount}} reviews\n- 🚚 **Shipping**: {{shippingInfo}}\n- 🔄 **Returns**: {{returnPolicy}}\n\n### Why Act Fast:\n- 📦 **Limited stock** available\n- ⏰ **High demand** product\n- 🎁 **Special offers** may apply\n- 💰 **Price may change**\n\n### Related Products:\n- 🛒 **Similar items** available\n- 🎯 **Personalized picks**\n- 💰 **Best deals**\n\n*Get it before it's gone again!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "{{productImageUrl}}",
+                    "alt": "{{productName}} product image"
+                }
+            },
+            "footer": {
+                "buyNow": {
+                    "text": "🛒 Buy Now",
+                    "type": "navigation",
+                    "action": "buy_product",
+                    "actionType": "buy_product",
+                    "actionData": {
+                        "url": "buyconn://products/{{productId}}"
+                    }
+                },
+                "addToCart": {
+                    "text": "📦 Add to Cart",
+                    "type": "action",
+                    "action": "add_to_cart",
+                    "actionType": "add_to_cart",
+                    "actionData": {
+                        "productId": "{{productId}}",
+                        "quantity": 1
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "product-new-arrival": {
+        "notificationId": "{{$guid}}",
+        "type": "Product",
+        "payload": {
+            "header": {
+                "title": "🆕 New Arrival - {{productName}}"
+            },
+            "body": {
+                "content": "# New Product Alert! \n \nA new product has arrived that matches your interests!\n\n### Product Details:\n- 📦 **Product**: {{productName}}\n- 💰 **Price**: ${{productPrice}}\n- 🆕 **New arrival**: {{arrivalDate}}\n- ⭐ **Rating**: {{productRating}}/5\n- 📝 **Reviews**: {{reviewCount}} reviews\n\n### Product Features:\n- 🎯 **Category**: {{productCategory}}\n- 📏 **Dimensions**: {{dimensions}}\n- ⚖️ **Weight**: {{weight}}\n- 🚚 **Shipping**: {{shippingInfo}}\n\n### Why You'll Love It:\n- 🆕 **Latest technology**\n- 💰 **Competitive pricing**\n- 🎁 **Launch offers** available\n- 🔄 **Easy returns**\n\n### Special Launch Offers:\n- 💰 **Early bird discount**\n- 🚚 **Free shipping**\n- 🎁 **Bonus items**\n- 💳 **Payment plans** available\n\n*Be among the first to try this new product!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "{{productImageUrl}}",
+                    "alt": "{{productName}} product image"
+                }
+            },
+            "footer": {
+                "viewProduct": {
+                    "text": "👀 View Product",
+                    "type": "navigation",
+                    "action": "view_product",
+                    "actionType": "view_product",
+                    "actionData": {
+                        "url": "buyconn://products/{{productId}}"
+                    }
+                },
+                "buyNow": {
+                    "text": "🛒 Buy Now",
+                    "type": "navigation",
+                    "action": "buy_product",
+                    "actionType": "buy_product",
+                    "actionData": {
+                        "url": "buyconn://products/{{productId}}"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "product-recommendation": {
+        "notificationId": "{{$guid}}",
+        "type": "Product",
+        "payload": {
+            "header": {
+                "title": "🎯 Recommended for You - {{productName}}"
+            },
+            "body": {
+                "content": "# Personalized Recommendation \n \nBased on your preferences, we think you'll love this!\n\n### Product Details:\n- 📦 **Product**: {{productName}}\n- 💰 **Price**: ${{productPrice}}\n- ⭐ **Rating**: {{productRating}}/5\n- 📝 **Reviews**: {{reviewCount}} reviews\n- 🎯 **Match score**: {{matchPercentage}}%\n\n### Why We Recommend:\n- 🎯 **Matches your interests**: {{interestMatch}}\n- 📊 **Popular with similar users**: {{similarUserRating}}\n- 💰 **Great value**: {{valueRating}}\n- 🚚 **Fast shipping**: {{shippingRating}}\n\n### Product Highlights:\n- 🏆 **Best seller** in category\n- 💰 **Competitive pricing**\n- 🎁 **Special offers** available\n- 🔄 **Easy returns**\n\n### Similar Products:\n- 🛒 **Browse more recommendations**\n- 🎯 **Personalized picks**\n- 💰 **Best deals** in category\n\n*Discover products tailored just for you!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "{{productImageUrl}}",
+                    "alt": "{{productName}} product image"
+                }
+            },
+            "footer": {
+                "viewProduct": {
+                    "text": "👀 View Product",
+                    "type": "navigation",
+                    "action": "view_product",
+                    "actionType": "view_product",
+                    "actionData": {
+                        "url": "buyconn://products/{{productId}}"
+                    }
+                },
+                "viewRecommendations": {
+                    "text": "🎯 More Recommendations",
+                    "type": "navigation",
+                    "action": "view_recommendations",
+                    "actionType": "view_recommendations",
+                    "actionData": {
+                        "url": "buyconn://recommendations"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "product-review-request": {
+        "notificationId": "{{$guid}}",
+        "type": "Product",
+        "payload": {
+            "header": {
+                "title": "⭐ Review Your Purchase - {{productName}}"
+            },
+            "body": {
+                "content": "# Share Your Experience \n \nHow was your experience with {{productName}}?\n\n### Purchase Details:\n- 📦 **Product**: {{productName}}\n- 📅 **Purchased**: {{purchaseDate}}\n- 📦 **Order #**: {{orderNumber}}\n- 💰 **Price**: ${{productPrice}}\n\n### Why Your Review Matters:\n- ⭐ **Help other customers** make informed decisions\n- 🎁 **Earn rewards** for your review\n- 📊 **Improve our products** based on feedback\n- 🏆 **Build community** with other shoppers\n\n### Review Rewards:\n- 🎁 **Points**: {{reviewPoints}} points\n- 💰 **Discount**: {{reviewDiscount}}% off next purchase\n- 🏆 **Badge**: Review contributor badge\n- 📊 **Status**: Trusted reviewer status\n\n### How to Review:\n1. **Rate the product** (1-5 stars)\n2. **Write your thoughts**\n3. **Add photos** (optional)\n4. **Submit and earn rewards**\n\n*Your feedback helps us improve and helps other shoppers!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "{{productImageUrl}}",
+                    "alt": "{{productName}} product image"
+                }
+            },
+            "footer": {
+                "writeReview": {
+                    "text": "⭐ Write Review",
+                    "type": "navigation",
+                    "action": "write_review",
+                    "actionType": "write_review",
+                    "actionData": {
+                        "url": "buyconn://products/{{productId}}/review"
+                    }
+                },
+                "viewProduct": {
+                    "text": "👀 View Product",
+                    "type": "navigation",
+                    "action": "view_product",
+                    "actionType": "view_product",
+                    "actionData": {
+                        "url": "buyconn://products/{{productId}}"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    }
+}

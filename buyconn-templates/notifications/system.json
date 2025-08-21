@@ -1,0 +1,219 @@
+{
+    "system-app-update": {
+        "notificationId": "{{$guid}}",
+        "type": "System",
+        "payload": {
+            "header": {
+                "title": "🔄 App Update Required"
+            },
+            "body": {
+                "content": "# Update Required \n \nA critical app update is required to continue using BuyConn.\n\n### Update Details:\n- 📱 **Current version**: {{currentVersion}}\n- 🔄 **Required version**: {{requiredVersion}}\n- 📊 **Update size**: {{updateSize}}\n- ⏰ **Estimated time**: {{updateTime}}\n\n### What's New:\n- 🔒 **Security patches**\n- 🐛 **Bug fixes**\n- 📊 **Performance improvements**\n- 🎯 **New features**\n- 🔔 **Enhanced notifications**\n\n### Why Update Now:\n- 🔒 **Security vulnerabilities** fixed\n- ⚡ **Better performance**\n- 🎯 **New functionality**\n- 🔄 **Compatibility** improvements\n\n### Update Process:\n- 📱 **Automatic download**\n- 🔄 **Quick installation**\n- ✅ **Seamless restart**\n- 🎯 **Ready to use**\n\n*Please update now to ensure the best experience.*",
+                "type": "markdown",
+                "image": {
+                    "uri": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+                    "alt": "App update required"
+                }
+            },
+            "footer": {
+                "updateNow": {
+                    "text": "🔄 Update Now",
+                    "type": "action",
+                    "action": "update_app",
+                    "actionType": "update_app",
+                    "actionData": {
+                        "version": "{{requiredVersion}}",
+                        "updateUrl": "{{updateUrl}}"
+                    }
+                },
+                "learnMore": {
+                    "text": "Learn More",
+                    "type": "navigation",
+                    "action": "learn_more",
+                    "actionType": "learn_more",
+                    "actionData": {
+                        "url": "buyconn://updates/{{updateId}}"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "system-error-notification": {
+        "notificationId": "{{$guid}}",
+        "type": "System",
+        "payload": {
+            "header": {
+                "title": "⚠️ System Error Detected"
+            },
+            "body": {
+                "content": "# Error Notification \n \nWe detected a system error that may affect your experience.\n\n### Error Details:\n- ⚠️ **Error type**: {{errorType}}\n- 📱 **Component**: {{errorComponent}}\n- ⏰ **Time**: {{errorTime}}\n- 🔍 **Error code**: {{errorCode}}\n\n### What Happened:\n- 🔄 **Service interruption**: {{serviceAffected}}\n- 📊 **Performance impact**: {{performanceImpact}}\n- 🎯 **User impact**: {{userImpact}}\n- ⏰ **Duration**: {{errorDuration}}\n\n### What We're Doing:\n- 🔧 **Investigating** the issue\n- 🛠️ **Working on** a fix\n- 📱 **Monitoring** system status\n- 💬 **Keeping you** informed\n\n### Current Status:\n- ✅ **Core services**: Operational\n- ⚠️ **Affected features**: {{affectedFeatures}}\n- 🔄 **Recovery time**: {{recoveryTime}}\n- 📞 **Support**: Available\n\n*We apologize for any inconvenience. Our team is working to resolve this quickly.*",
+                "type": "markdown",
+                "image": {
+                    "uri": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=200&fit=crop",
+                    "alt": "System error"
+                }
+            },
+            "footer": {
+                "checkStatus": {
+                    "text": "📊 Check Status",
+                    "type": "navigation",
+                    "action": "check_status",
+                    "actionType": "check_status",
+                    "actionData": {
+                        "url": "buyconn://status"
+                    }
+                },
+                "contactSupport": {
+                    "text": "📞 Contact Support",
+                    "type": "navigation",
+                    "action": "contact_support",
+                    "actionType": "contact_support",
+                    "actionData": {
+                        "url": "buyconn://support"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "system-maintenance-alert": {
+        "notificationId": "{{$guid}}",
+        "type": "System",
+        "payload": {
+            "header": {
+                "title": "🔧 Scheduled Maintenance Alert"
+            },
+            "body": {
+                "content": "# Maintenance Notice \n \nBuyConn will undergo scheduled maintenance to improve your experience.\n\n### Maintenance Details:\n- ⏰ **Start time**: {{startTime}}\n- ⏱️ **Duration**: {{duration}}\n- 🔧 **Type**: {{maintenanceType}}\n- 📱 **Scope**: {{maintenanceScope}}\n\n### What's Being Updated:\n- 🔒 **Security enhancements**\n- 📊 **Performance optimizations**\n- 🐛 **Bug fixes**\n- 🎯 **New features** preparation\n- 🔄 **System upgrades**\n\n### Service Impact:\n- 📱 **App availability**: {{appAvailability}}\n- 🛒 **Shopping features**: {{shoppingImpact}}\n- 🎮 **Gaming services**: {{gamingImpact}}\n- 🔔 **Notifications**: {{notificationImpact}}\n\n### Alternative Options:\n- 🛒 **Shop before maintenance**\n- 📱 **Use web version**\n- 📞 **Contact support**\n- 📊 **Check status page**\n\n### After Maintenance:\n- ⚡ **Faster performance**\n- 🔒 **Enhanced security**\n- 🎯 **New features**\n- 🐛 **Bug fixes**\n\n*Thank you for your patience during this maintenance.*",
+                "type": "markdown",
+                "image": {
+                    "uri": "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=400&h=200&fit=crop",
+                    "alt": "Maintenance tools"
+                }
+            },
+            "footer": {
+                "checkStatus": {
+                    "text": "📊 Check Status",
+                    "type": "navigation",
+                    "action": "check_status",
+                    "actionType": "check_status",
+                    "actionData": {
+                        "url": "buyconn://status"
+                    }
+                },
+                "learnMore": {
+                    "text": "Learn More",
+                    "type": "navigation",
+                    "action": "learn_more",
+                    "actionType": "learn_more",
+                    "actionData": {
+                        "url": "buyconn://maintenance/{{maintenanceId}}"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "system-performance-alert": {
+        "notificationId": "{{$guid}}",
+        "type": "System",
+        "payload": {
+            "header": {
+                "title": "📊 Performance Optimization Available"
+            },
+            "body": {
+                "content": "# Performance Alert \n \nWe can optimize your BuyConn experience for better performance.\n\n### Current Status:\n- 📱 **App performance**: {{currentPerformance}}\n- 🔄 **Loading times**: {{loadingTimes}}\n- 📊 **Memory usage**: {{memoryUsage}}\n- ⚡ **Battery impact**: {{batteryImpact}}\n\n### Optimization Options:\n- 🗂️ **Clear cache**: {{cacheSize}} MB\n- 📱 **Update app**: {{updateAvailable}}\n- 🔧 **Reset settings**: {{resetOptions}}\n- 📊 **Performance mode**: {{performanceMode}}\n\n### Benefits:\n- ⚡ **Faster loading** times\n- 🔋 **Better battery** life\n- 📱 **Smoother** experience\n- 🎯 **Improved** functionality\n\n### Quick Actions:\n- 🗂️ **Clear cache** now\n- 🔧 **Optimize settings**\n- 📱 **Restart app**\n- 📊 **Check performance**\n\n### What This Does:\n- 🧹 **Removes temporary files**\n- 🔧 **Optimizes settings**\n- 📱 **Improves app performance**\n- 🔋 **Reduces battery usage**\n\n*Optimize now for the best experience!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+                    "alt": "Performance optimization"
+                }
+            },
+            "footer": {
+                "optimizeNow": {
+                    "text": "🔧 Optimize Now",
+                    "type": "action",
+                    "action": "optimize_performance",
+                    "actionType": "optimize_performance",
+                    "actionData": {
+                        "optimizationType": "{{optimizationType}}"
+                    }
+                },
+                "learnMore": {
+                    "text": "Learn More",
+                    "type": "navigation",
+                    "action": "learn_more",
+                    "actionType": "learn_more",
+                    "actionData": {
+                        "url": "buyconn://performance/optimization"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "system-security-alert": {
+        "notificationId": "{{$guid}}",
+        "type": "Security",
+        "payload": {
+            "header": {
+                "title": "🔒 Security Alert - Action Required"
+            },
+            "body": {
+                "content": "# Security Alert \n \nWe detected a potential security concern that requires your attention.\n\n### Alert Details:\n- 🔒 **Alert type**: {{alertType}}\n- ⏰ **Detected**: {{detectionTime}}\n- 📱 **Device**: {{deviceInfo}}\n- 📍 **Location**: {{locationInfo}}\n\n### Security Concern:\n- 🔍 **Suspicious activity**: {{suspiciousActivity}}\n- 📱 **Device access**: {{deviceAccess}}\n- 🔐 **Account security**: {{accountSecurity}}\n- 🌐 **Network activity**: {{networkActivity}}\n\n### Recommended Actions:\n1. **Verify this was you**\n2. **Change your password**\n3. **Enable 2FA** if not enabled\n4. **Review account activity**\n5. **Contact support** if suspicious\n\n### Security Features:\n- 🔐 **Two-factor authentication**\n- 📱 **Device verification**\n- 🔒 **Account monitoring**\n- 📊 **Activity logs**\n\n### What We're Doing:\n- 🔍 **Monitoring** your account\n- 🔒 **Protecting** your data\n- 📱 **Alerting** you of concerns\n- 🛡️ **Preventing** unauthorized access\n\n*Your security is our top priority. Please take action to protect your account.*",
+                "type": "markdown",
+                "image": {
+                    "uri": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=200&fit=crop",
+                    "alt": "Security shield"
+                }
+            },
+            "footer": {
+                "verifyActivity": {
+                    "text": "✅ Verify Activity",
+                    "type": "action",
+                    "action": "verify_activity",
+                    "actionType": "verify_activity",
+                    "actionData": {
+                        "alertId": "{{alertId}}",
+                        "verificationUrl": "buyconn://security/verify"
+                    }
+                },
+                "updateSecurity": {
+                    "text": "🔒 Update Security",
+                    "type": "navigation",
+                    "action": "update_security",
+                    "actionType": "update_security",
+                    "actionData": {
+                        "url": "buyconn://security"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    }
+}

@@ -1,51 +1,209 @@
 {
-  "user-login": {
+  "user-login-success": {
     "notificationId": "{{$guid}}",
-    "type": "Reward",
+    "type": "User",
     "payload": {
       "header": {
-        "title": "🎫 Exclusive Coupon Unlocked! {{userName}}"
+        "title": "👋 Welcome back, {{userName}}!"
       },
       "body": {
-        "content": "# Congratulations! \n \nYou've earned an **exclusive coupon** for being an active user!\n\n### Your Coupon:\n- 🎫 **{{discount}}% OFF** on your next purchase\n- 💰 **Valid up to ${{maxDiscount}}** maximum discount\n- ⏰ **Expires in {{validityDays}} days**\n- **Minimum spend: ${{minSpend}}**\n\n### How to Use:\n1. Click the **Claim Coupon** button below\n2. Your coupon will be added to your account\n3. Apply it during checkout\n4. Enjoy your savings!\n\n*Limited time offer - don't miss out!*",
+        "content": "# Login Successful \n \nYou've successfully logged into your BuyConn account.\n\n### Account Status:\n- ✅ **Last login**: {{lastLoginTime}}\n- 📍 **Location**: {{loginLocation}}\n- 🔒 **Security**: 2FA {{twoFactorStatus}}\n\n### Quick Actions:\n- View your recent orders\n- Check your rewards balance\n- Update your profile\n\n*Stay connected and enjoy shopping!*",
         "type": "markdown",
         "image": {
-          "uri": "https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=400&h=200&fit=crop",
-          "alt": "Coupon celebration with discount symbols"
+          "uri": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400&h=200&fit=crop",
+          "alt": "Welcome back illustration"
         }
       },
       "footer": {
-        "claimCoupon": {
-          "text": "🎫 Claim Coupon",
-          "type": "action",
-          "action": "claim_coupon",
-          "actionType": "claim_coupon",
+        "viewProfile": {
+          "text": "View Profile",
+          "type": "navigation",
+          "action": "view_profile",
+          "actionType": "view_profile",
           "actionData": {
-            "couponId": "exclusive-20-off-2024",
-            "couponCode": "EXCLUSIVE20",
-            "discountType": "percentage",
-            "discountValue": 20,
-            "maxDiscount": 50,
-            "minSpend": 25,
-            "expiryDate": "2024-12-31T23:59:59Z",
-            "validityDays": 7,
-            "usageLimit": 1,
-            "categories": [
-              "all"
-            ],
-            "exclusions": [
-              "sale_items",
-              "electronics"
-            ]
+            "url": "buyconn://profile"
           }
         },
-        "viewCoupons": {
-          "text": "View All Coupons",
+        "viewOrders": {
+          "text": "My Orders",
           "type": "navigation",
-          "action": "view_coupons_list",
-          "actionType": "view_coupons_list",
+          "action": "view_orders",
+          "actionType": "view_orders",
           "actionData": {
-            "url": "buyconn://coupons/list"
+            "url": "buyconn://orders"
+          }
+        },
+        "dismiss": {
+          "text": "Dismiss",
+          "type": "action",
+          "action": "dismiss",
+          "actionType": "dismiss"
+        }
+      }
+    }
+  },
+  "user-profile-updated": {
+    "notificationId": "{{$guid}}",
+    "type": "User",
+    "payload": {
+      "header": {
+        "title": "✅ Profile Updated Successfully"
+      },
+      "body": {
+        "content": "# Profile Changes Saved \n \nYour profile information has been updated successfully.\n\n### Updated Fields:\n- 📝 **{{updatedFields}}**\n- ⏰ **Updated at**: {{updateTime}}\n\n### What's Next:\n- Your changes are now active\n- You can continue shopping\n- Check your updated profile\n\n*Thank you for keeping your information current!*",
+        "type": "markdown",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=200&fit=crop",
+          "alt": "Profile update confirmation"
+        }
+      },
+      "footer": {
+        "viewProfile": {
+          "text": "View Profile",
+          "type": "navigation",
+          "action": "view_profile",
+          "actionType": "view_profile",
+          "actionData": {
+            "url": "buyconn://profile"
+          }
+        },
+        "continueShopping": {
+          "text": "Continue Shopping",
+          "type": "navigation",
+          "action": "continue_shopping",
+          "actionType": "continue_shopping",
+          "actionData": {
+            "url": "buyconn://home"
+          }
+        },
+        "dismiss": {
+          "text": "Dismiss",
+          "type": "action",
+          "action": "dismiss",
+          "actionType": "dismiss"
+        }
+      }
+    }
+  },
+  "user-security-alert": {
+    "notificationId": "{{$guid}}",
+    "type": "Security",
+    "payload": {
+      "header": {
+        "title": "🔒 Security Alert - {{alertType}}"
+      },
+      "body": {
+        "content": "# Security Notice \n \nWe detected {{alertDescription}} on your account.\n\n### Alert Details:\n- 🚨 **Type**: {{alertType}}\n- 📍 **Location**: {{alertLocation}}\n- ⏰ **Time**: {{alertTime}}\n- 📱 **Device**: {{deviceInfo}}\n\n### Recommended Actions:\n1. **Verify this was you**\n2. **Change your password** if needed\n3. **Enable 2FA** for extra security\n4. **Contact support** if suspicious\n\n*Your security is our priority!*",
+        "type": "markdown",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=200&fit=crop",
+          "alt": "Security shield icon"
+        }
+      },
+      "footer": {
+        "verifyActivity": {
+          "text": "Verify Activity",
+          "type": "action",
+          "action": "verify_activity",
+          "actionType": "verify_activity",
+          "actionData": {
+            "alertId": "{{alertId}}",
+            "verificationUrl": "buyconn://security/verify"
+          }
+        },
+        "changePassword": {
+          "text": "Change Password",
+          "type": "navigation",
+          "action": "change_password",
+          "actionType": "change_password",
+          "actionData": {
+            "url": "buyconn://security/password"
+          }
+        },
+        "dismiss": {
+          "text": "Dismiss",
+          "type": "action",
+          "action": "dismiss",
+          "actionType": "dismiss"
+        }
+      }
+    }
+  },
+  "user-account-verification": {
+    "notificationId": "{{$guid}}",
+    "type": "User",
+    "payload": {
+      "header": {
+        "title": "📧 Verify Your Email Address"
+      },
+      "body": {
+        "content": "# Email Verification Required \n \nPlease verify your email address to complete your account setup.\n\n### Why Verify?\n- 🔐 **Enhanced security**\n- 📱 **Password recovery**\n- 🎁 **Exclusive offers**\n- 📊 **Order updates**\n\n### How to Verify:\n1. Check your email inbox\n2. Click the verification link\n3. Return to the app\n4. Enjoy full access!\n\n*Verification link expires in 24 hours*",
+        "type": "markdown",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+          "alt": "Email verification illustration"
+        }
+      },
+      "footer": {
+        "resendEmail": {
+          "text": "Resend Email",
+          "type": "action",
+          "action": "resend_verification",
+          "actionType": "resend_verification",
+          "actionData": {
+            "email": "{{userEmail}}"
+          }
+        },
+        "changeEmail": {
+          "text": "Change Email",
+          "type": "navigation",
+          "action": "change_email",
+          "actionType": "change_email",
+          "actionData": {
+            "url": "buyconn://profile/email"
+          }
+        },
+        "dismiss": {
+          "text": "Dismiss",
+          "type": "action",
+          "action": "dismiss",
+          "actionType": "dismiss"
+        }
+      }
+    }
+  },
+  "user-password-reset": {
+    "notificationId": "{{$guid}}",
+    "type": "Security",
+    "payload": {
+      "header": {
+        "title": "🔑 Password Reset Request"
+      },
+      "body": {
+        "content": "# Password Reset Initiated \n \nWe received a request to reset your password.\n\n### Reset Details:\n- 📧 **Email**: {{userEmail}}\n- ⏰ **Requested**: {{requestTime}}\n- 🔗 **Link expires**: {{expiryTime}}\n\n### Next Steps:\n1. Check your email inbox\n2. Click the reset link\n3. Create a new password\n4. Log in with new credentials\n\n*If you didn't request this, please contact support immediately.*",
+        "type": "markdown",
+        "image": {
+          "uri": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop",
+          "alt": "Password reset illustration"
+        }
+      },
+      "footer": {
+        "resendReset": {
+          "text": "Resend Reset Link",
+          "type": "action",
+          "action": "resend_password_reset",
+          "actionType": "resend_password_reset",
+          "actionData": {
+            "email": "{{userEmail}}"
+          }
+        },
+        "contactSupport": {
+          "text": "Contact Support",
+          "type": "navigation",
+          "action": "contact_support",
+          "actionType": "contact_support",
+          "actionData": {
+            "url": "buyconn://support"
           }
         },
         "dismiss": {

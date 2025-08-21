@@ -1,0 +1,219 @@
+{
+    "social-friend-activity": {
+        "notificationId": "{{$guid}}",
+        "type": "Social",
+        "payload": {
+            "header": {
+                "title": "👥 {{friendName}} is active on BuyConn!"
+            },
+            "body": {
+                "content": "# Friend Activity \n \n{{friendName}} just {{friendActivity}}!\n\n### Activity Details:\n- 👤 **Friend**: {{friendName}}\n- 🎯 **Activity**: {{friendActivity}}\n- ⏰ **Time**: {{activityTime}}\n- 📍 **Location**: {{activityLocation}}\n\n### What They Did:\n- 🛒 **Purchased**: {{purchasedItem}}\n- 🎮 **Played**: {{playedGame}}\n- 🏆 **Achieved**: {{achievement}}\n- ⭐ **Reviewed**: {{reviewedProduct}}\n\n### Join the Fun:\n- 🛒 **Shop together**\n- 🎮 **Play games**\n- 🏆 **Compete** on leaderboards\n- 💬 **Chat** about products\n\n### Social Features:\n- 👥 **See more friends**\n- 🎯 **Activity feed**\n- 🏆 **Leaderboards**\n- 💬 **Community chat**\n\n*Stay connected with your friends on BuyConn!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "{{friendAvatarUrl}}",
+                    "alt": "{{friendName}}'s avatar"
+                }
+            },
+            "footer": {
+                "viewActivity": {
+                    "text": "👀 View Activity",
+                    "type": "navigation",
+                    "action": "view_activity",
+                    "actionType": "view_activity",
+                    "actionData": {
+                        "url": "buyconn://social/activity/{{activityId}}"
+                    }
+                },
+                "joinActivity": {
+                    "text": "🎯 Join Activity",
+                    "type": "navigation",
+                    "action": "join_activity",
+                    "actionType": "join_activity",
+                    "actionData": {
+                        "url": "buyconn://social/join/{{activityId}}"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "social-community-event": {
+        "notificationId": "{{$guid}}",
+        "type": "Social",
+        "payload": {
+            "header": {
+                "title": "🎉 Community Event - {{eventName}}"
+            },
+            "body": {
+                "content": "# Community Event \n \nJoin the BuyConn community for {{eventName}}!\n\n### Event Details:\n- 🎉 **Event**: {{eventName}}\n- 📅 **Date**: {{eventDate}}\n- ⏰ **Time**: {{eventTime}}\n- 📍 **Location**: {{eventLocation}}\n- 👥 **Participants**: {{participantCount}}\n\n### Event Highlights:\n- 🎮 **Gaming tournaments**\n- 🛒 **Shopping challenges**\n- 🏆 **Rewards and prizes**\n- 💬 **Community meetups**\n- 📸 **Photo contests**\n\n### How to Participate:\n- 📱 **Join via app**\n- 🎯 **Complete challenges**\n- 🏆 **Win prizes**\n- 💬 **Connect with others**\n\n### Event Rewards:\n- 🎁 **Exclusive rewards**\n- 🏆 **Community badges**\n- 💰 **Special discounts**\n- 📊 **Leaderboard recognition**\n\n*Don't miss this amazing community event!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "{{eventImageUrl}}",
+                    "alt": "{{eventName}} event banner"
+                }
+            },
+            "footer": {
+                "joinEvent": {
+                    "text": "🎉 Join Event",
+                    "type": "navigation",
+                    "action": "join_event",
+                    "actionType": "join_event",
+                    "actionData": {
+                        "url": "buyconn://social/events/{{eventId}}"
+                    }
+                },
+                "viewEvents": {
+                    "text": "📅 View All Events",
+                    "type": "navigation",
+                    "action": "view_events",
+                    "actionType": "view_events",
+                    "actionData": {
+                        "url": "buyconn://social/events"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "social-achievement-shared": {
+        "notificationId": "{{$guid}}",
+        "type": "Social",
+        "payload": {
+            "header": {
+                "title": "🏆 {{friendName}} shared an achievement!"
+            },
+            "body": {
+                "content": "# Achievement Shared \n \n{{friendName}} just shared their achievement with you!\n\n### Achievement Details:\n- 👤 **Friend**: {{friendName}}\n- 🏆 **Achievement**: {{achievementName}}\n- 📝 **Description**: {{achievementDescription}}\n- ⭐ **Rarity**: {{achievementRarity}}\n- 🎯 **Game**: {{gameName}}\n\n### Achievement Stats:\n- 📊 **Difficulty**: {{difficultyLevel}}\n- 🎮 **Game**: {{gameName}}\n- ⏰ **Earned**: {{earnedDate}}\n- 🏅 **Rank**: {{achievementRank}}\n\n### Challenge Your Friend:\n- 🎮 **Play the same game**\n- 🏆 **Beat their score**\n- 🎯 **Complete challenges**\n- 💬 **Congratulate them**\n\n### Social Features:\n- 👥 **See more friends**\n- 🏆 **View leaderboards**\n- 🎮 **Join gaming sessions**\n- 💬 **Community chat**\n\n*Challenge your friends and share your achievements!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "{{achievementImageUrl}}",
+                    "alt": "{{achievementName}} achievement"
+                }
+            },
+            "footer": {
+                "congratulate": {
+                    "text": "🎉 Congratulate",
+                    "type": "action",
+                    "action": "congratulate_friend",
+                    "actionType": "congratulate_friend",
+                    "actionData": {
+                        "friendId": "{{friendId}}",
+                        "achievementId": "{{achievementId}}"
+                    }
+                },
+                "playGame": {
+                    "text": "🎮 Play Game",
+                    "type": "navigation",
+                    "action": "play_game",
+                    "actionType": "play_game",
+                    "actionData": {
+                        "url": "buyconn://games/{{gameId}}"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "social-group-invitation": {
+        "notificationId": "{{$guid}}",
+        "type": "Social",
+        "payload": {
+            "header": {
+                "title": "👥 Group Invitation - {{groupName}}"
+            },
+            "body": {
+                "content": "# Group Invitation \n \n{{inviterName}} invited you to join {{groupName}}!\n\n### Group Details:\n- 👥 **Group**: {{groupName}}\n- 👤 **Invited by**: {{inviterName}}\n- 👥 **Members**: {{memberCount}} members\n- 🎯 **Category**: {{groupCategory}}\n- 📝 **Description**: {{groupDescription}}\n\n### Group Activities:\n- 🛒 **Shopping together**\n- 🎮 **Gaming sessions**\n- 💬 **Product discussions**\n- 🏆 **Group challenges**\n- 📸 **Photo sharing**\n\n### Group Benefits:\n- 🎁 **Group discounts**\n- 🏆 **Exclusive rewards**\n- 💬 **Community chat**\n- 📊 **Group leaderboards**\n- 🎯 **Shared challenges**\n\n### What You Can Do:\n- 👥 **Join the group**\n- 💬 **Start chatting**\n- 🛒 **Shop together**\n- 🎮 **Play games**\n\n*Join the community and connect with like-minded shoppers!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "{{groupImageUrl}}",
+                    "alt": "{{groupName}} group image"
+                }
+            },
+            "footer": {
+                "acceptInvitation": {
+                    "text": "✅ Accept Invitation",
+                    "type": "action",
+                    "action": "accept_group_invitation",
+                    "actionType": "accept_group_invitation",
+                    "actionData": {
+                        "groupId": "{{groupId}}",
+                        "inviterId": "{{inviterId}}"
+                    }
+                },
+                "viewGroup": {
+                    "text": "👀 View Group",
+                    "type": "navigation",
+                    "action": "view_group",
+                    "actionType": "view_group",
+                    "actionData": {
+                        "url": "buyconn://social/groups/{{groupId}}"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    },
+    "social-message-received": {
+        "notificationId": "{{$guid}}",
+        "type": "Social",
+        "payload": {
+            "header": {
+                "title": "💬 New message from {{senderName}}"
+            },
+            "body": {
+                "content": "# New Message \n \n{{senderName}} sent you a message!\n\n### Message Preview:\n- 👤 **From**: {{senderName}}\n- 💬 **Message**: {{messagePreview}}\n- ⏰ **Time**: {{messageTime}}\n- 📍 **Context**: {{messageContext}}\n\n### Message Details:\n- 💬 **Type**: {{messageType}}\n- 🎯 **Topic**: {{messageTopic}}\n- 📱 **Platform**: {{messagePlatform}}\n- 🔔 **Priority**: {{messagePriority}}\n\n### Quick Actions:\n- 💬 **Reply quickly**\n- 👀 **View full message**\n- 📞 **Call friend**\n- 🎮 **Start gaming session**\n\n### Social Features:\n- 👥 **See all messages**\n- 💬 **Group chats**\n- 🎮 **Gaming chat**\n- 📸 **Photo sharing**\n\n*Stay connected with your friends and community!*",
+                "type": "markdown",
+                "image": {
+                    "uri": "{{senderAvatarUrl}}",
+                    "alt": "{{senderName}}'s avatar"
+                }
+            },
+            "footer": {
+                "replyMessage": {
+                    "text": "💬 Reply",
+                    "type": "navigation",
+                    "action": "reply_message",
+                    "actionType": "reply_message",
+                    "actionData": {
+                        "url": "buyconn://social/messages/{{messageId}}"
+                    }
+                },
+                "viewMessages": {
+                    "text": "📱 View Messages",
+                    "type": "navigation",
+                    "action": "view_messages",
+                    "actionType": "view_messages",
+                    "actionData": {
+                        "url": "buyconn://social/messages"
+                    }
+                },
+                "dismiss": {
+                    "text": "Dismiss",
+                    "type": "action",
+                    "action": "dismiss",
+                    "actionType": "dismiss"
+                }
+            }
+        }
+    }
+}
