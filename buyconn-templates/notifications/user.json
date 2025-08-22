@@ -1,5 +1,26 @@
 {
-  "user-login-success": {
+  "user-un-signed-start": {
+    "header": {
+      "title": "👋 Welcome to Buyconn!"
+    },
+    "body": {
+      "content": "## Happy to see you 😊, Just wanted to remind you that we are not a typical shopping app, it's different \n  Spot it → Snap it → Get it on BuyConn.",
+      "type": "markdown",
+      "image": {
+        "uri": "https://images.unsplash.com/photo-1542596594-649edbc13630??w=400&h=200&fit=crop",
+        "alt": "Happy Person"
+      }
+    },
+    "footer": {
+      },
+      "dismiss": {
+        "text": "Explore",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
+      }
+    }
+  },"user-login-success": {
     "header": {
       "title": "👋 Welcome back, {{userName}}!"
     },
