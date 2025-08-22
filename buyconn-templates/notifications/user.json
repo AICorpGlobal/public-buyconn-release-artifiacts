@@ -12,7 +12,6 @@
       }
     },
     "footer": {
-      },
       "dismiss": {
         "text": "Explore",
         "type": "action",
@@ -20,7 +19,8 @@
         "actionType": "dismiss"
       }
     }
-  },"user-login-success": {
+  },
+"user-login-success": {
     "header": {
       "title": "👋 Welcome back, {{userName}}!"
     },
