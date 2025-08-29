@@ -1,0 +1,26 @@
+{
+  "season-offer": {
+    "header": {
+      "title": "❄️ Seasonal Sale!"
+    },
+    "body": {
+      "content": "# Limited Time 🛒\n\nEnjoy exclusive seasonal discounts.\n\n### Details:\n- 🛍️ **Discounts Up To**: {{discountPercent}}%\n- 📅 **Valid Till**: {{endDate}}",
+      "type": "markdown",
+      "image": {
+        "uri": "{{seasonImageUrl}}",
+        "alt": "Season sale"
+      }
+    },
+    "footer": {
+      "shopNow": {
+        "text": "🛒 Shop Sale",
+        "type": "navigation",
+        "action": "open_season_sale",
+        "actionType": "deep_link",
+        "actionData": {
+          "url": "buyconn://offers/season"
+        }
+      }
+    }
+  }
+}

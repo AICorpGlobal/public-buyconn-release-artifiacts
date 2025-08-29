@@ -20,7 +20,24 @@
       }
     }
   },
-"user-login-success": {
+  "first-time-user-offers": {
+    "header": { "title": "🎁 Unlock Rewards & Offers!" },
+    "body": {
+      "content": "# Sign In to Explore 🎉\n\nExclusive offers and rewards are waiting for you.\n\n- 🛍️ **Special Discounts**\n- 🎮 **Games & Rewards**\n- 🎁 **Coupons Just for You**\n\n*Log in now to unlock them!*",
+      "type": "markdown",
+      "image": { "uri": "{{offersImageUrl}}", "alt": "Login offers" }
+    },
+    "footer": {
+      "loginNow": {
+        "text": "🔑 Login Now",
+        "type": "navigation",
+        "action": "login",
+        "actionType": "auth",
+        "actionData": { "url": "buyconn://auth/login" }
+      }
+    }
+  },
+  "user-login-success": {
     "header": {
       "title": "👋 Welcome back, {{userName}}!"
     },
@@ -216,6 +233,43 @@
           "type": "action",
           "action": "dismiss",
           "actionType": "dismiss"
+        }
+      }
+    },
+    "user-account-anniversary": {
+      "header": { "title": "🎉 Happy Anniversary!" },
+      "body": {
+        "content": "# Congratulations 🎊\n\nIt’s been **{{years}} years** since you joined BuyConn.\n\n🎁 Enjoy this **{{rewardOffer}}** as our gift to you!",
+        "type": "markdown",
+        "image": {
+          "uri": "{{anniversaryImageUrl}}",
+          "alt": "Anniversary celebration"
+        }
+      },
+      "footer": {
+        "claimReward": {
+          "text": "🎁 Claim Reward",
+          "type": "navigation",
+          "action": "open_rewards",
+          "actionType": "deep_link",
+          "actionData": { "url": "buyconn://rewards" }
+        }
+      }
+    },
+    "user-birthday-offer": {
+      "header": { "title": "🎂 Happy Birthday!" },
+      "body": {
+        "content": "# Special Day 🎉\n\nHappy Birthday, {{userName}}! 🥳\n\n🎁 Here’s a **{{discountPercent}}% OFF coupon** just for you.",
+        "type": "markdown",
+        "image": { "uri": "{{birthdayImageUrl}}", "alt": "Birthday offer" }
+      },
+      "footer": {
+        "redeemNow": {
+          "text": "🎁 Redeem Offer",
+          "type": "navigation",
+          "action": "open_offers",
+          "actionType": "deep_link",
+          "actionData": { "url": "buyconn://offers/birthday" }
         }
       }
     }

@@ -1,0 +1,26 @@
+{
+  "wishlist-pending": {
+    "header": {
+      "title": "❤️ Your Wishlist is Waiting!"
+    },
+    "body": {
+      "content": "# Don’t Miss Out 🛒\n\nSome of your wishlist items are still not purchased.\n\n### Items:\n- 🛍️ **Product**: {{productName}}\n- 💵 **Price**: {{productPrice}}\n\n*Hurry before the stock runs out or the offer ends!*",
+      "type": "markdown",
+      "image": {
+        "uri": "{{wishlistImageUrl}}",
+        "alt": "Wishlist preview"
+      }
+    },
+    "footer": {
+      "buyNow": {
+        "text": "💳 Buy Now",
+        "type": "navigation",
+        "action": "open_wishlist",
+        "actionType": "open_product",
+        "actionData": {
+          "url": "buyconn://products/{{productId}}"
+        }
+      }
+    }
+  }
+}

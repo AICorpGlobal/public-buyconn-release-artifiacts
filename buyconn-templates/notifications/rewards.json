@@ -52,5 +52,39 @@
         "actionType": "dismiss"
       }
     }
+  },
+  "time-flash-sale": {
+    "header": { "title": "⚡ Flash Sale is Live!" },
+    "body": {
+      "content": "# Hurry Up ⏰\n\nFlash Sale ongoing!\n\n- Discounts: {{discountPercent}}%\n- Ends In: {{timeRemaining}}",
+      "type": "markdown",
+      "image": { "uri": "{{flashSaleImageUrl}}", "alt": "Flash sale" }
+    },
+    "footer": {
+      "shopFlash": {
+        "text": "⚡ Shop Now",
+        "type": "navigation",
+        "action": "open_flash_sale",
+        "actionType": "open_sale",
+        "actionData": { "url": "buyconn://offers/flash-sale" }
+      }
+    }
+  },
+  "time-happy-hour": {
+    "header": { "title": "🍹 Happy Hour Deals!" },
+    "body": {
+      "content": "# Limited Time 🎊\n\nExclusive Happy Hour Deals!\n\n🛍️ Discounts: {{discountPercent}}%\n🕒 Valid Until: {{endTime}}",
+      "type": "markdown",
+      "image": { "uri": "{{happyHourImageUrl}}", "alt": "Happy Hour sale" }
+    },
+    "footer": {
+      "shopHappyHour": {
+        "text": "🛍️ Grab Deals",
+        "type": "navigation",
+        "action": "open_happy_hour",
+        "actionType": "open_sale",
+        "actionData": { "url": "buyconn://offers/happy-hour" }
+      }
+    }
   }
 }
