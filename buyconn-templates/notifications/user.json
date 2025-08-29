@@ -20,7 +20,7 @@
       }
     }
   },
-  "first-time-user-offers": {
+  "user-signup-invite": {
     "header": { "title": "🎁 Unlock Rewards & Offers!" },
     "body": {
       "content": "# Sign In to Explore 🎉\n\nExclusive offers and rewards are waiting for you.\n\n- 🛍️ **Special Discounts**\n- 🎮 **Games & Rewards**\n- 🎁 **Coupons Just for You**\n\n*Log in now to unlock them!*",
