@@ -1,0 +1,39 @@
+{
+  "cart-product-price-drop": {
+    "header": { "title": "🛒 Cart Item Discount!" },
+    "body": {
+      "content": "# Great News 🎉\n\nAn item in your cart got cheaper!\n\n### Cart Update:\n- 🛍️ **Product**: {{productName}}\n- 💰 **Now at**: {{newPrice}}",
+      "type": "markdown",
+      "image": {
+        "uri": "{{productImageUrl}}",
+        "alt": "{{productName}} cart discount"
+      }
+    },
+    "footer": {
+      "checkout": {
+        "text": "💳 Checkout Now",
+        "type": "navigation",
+        "action": "checkout_cart",
+        "actionType": "checkout",
+        "actionData": { "url": "buyconn://cart" }
+      }
+    }
+  },
+  "time-abandoned-cart": {
+    "header": { "title": "🛒 Forgot Something in Your Cart?" },
+    "body": {
+      "content": "# Your Cart Awaits ⏰\n\nYou left {{cartItems}} items worth {{cartValue}}.\n\n*Complete checkout now!*",
+      "type": "markdown",
+      "image": { "uri": "{{cartImageUrl}}", "alt": "Cart reminder" }
+    },
+    "footer": {
+      "resumeCheckout": {
+        "text": "💳 Checkout",
+        "type": "navigation",
+        "action": "checkout_cart",
+        "actionType": "checkout",
+        "actionData": { "url": "buyconn://cart" }
+      }
+    }
+  }
+}

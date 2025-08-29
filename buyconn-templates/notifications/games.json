@@ -194,5 +194,29 @@
         "actionType": "dismiss"
       }
     }
+  },
+  "game-daily-reward": {
+    "header": {
+      "title": "🏆 Claim Your Daily Reward!"
+    },
+    "body": {
+      "content": "# Daily Bonus 🎉\n\nYou have a new reward waiting!\n\n### Reward Details:\n- 💎 **Points**: {{rewardPoints}}\n- 🎁 **Bonus**: {{rewardBonus}}\n- ⏰ **Expires**: {{expiryDate}}\n\n*Log in now and don’t miss your chance!*",
+      "type": "markdown",
+      "image": {
+        "uri": "{{rewardImageUrl}}",
+        "alt": "Reward preview"
+      }
+    },
+    "footer": {
+      "claimReward": {
+        "text": "🎁 Claim Now",
+        "type": "navigation",
+        "action": "claim_reward",
+        "actionType": "claim_reward",
+        "actionData": {
+          "url": "buyconn://gamezone/rewards"
+        }
+      }
+    }
   }
 }

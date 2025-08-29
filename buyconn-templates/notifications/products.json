@@ -195,5 +195,49 @@
                 "actionType": "dismiss"
             }
         }
+    },
+     "favorite-product-discount": {
+    "header": {
+      "title": "❤️ Your Favorite is on Sale!"
+    },
+    "body": {
+      "content": "# Special Discount 🎉\n\nOne of your favorite items just got cheaper!\n\n### Details:\n- 🛒 **Product**: {{productName}}\n- 💵 **Discounted Price**: {{discountedPrice}}\n- ⏰ **Offer Ends**: {{offerEndDate}}\n\n*Don’t miss this limited-time deal!*",
+      "type": "markdown",
+      "image": {
+        "uri": "{{productImageUrl}}",
+        "alt": "{{productName}} preview"
+      }
+    },
+    "footer": {
+      "buyNow": {
+        "text": "💳 Buy Now",
+        "type": "navigation",
+        "action": "open_favorite",
+        "actionType": "open_product",
+        "actionData": {
+          "url": "buyconn://products/{{productId}}"
+        }
+      }
     }
+  },
+  "product-promotion": {
+    "header": { "title": "🔥 Hot Product Promo!" },
+    "body": {
+      "content": "# Must-Have 🛒\n\n{{productName}} is trending right now!\n\n### Deal:\n- 💰 **Price**: {{promoPrice}}\n- 📅 **Ends**: {{endDate}}",
+      "type": "markdown",
+      "image": {
+        "uri": "{{productImageUrl}}",
+        "alt": "{{productName}} promo"
+      }
+    },
+    "footer": {
+      "buyNow": {
+        "text": "🛍️ Buy Now",
+        "type": "navigation",
+        "action": "open_product",
+        "actionType": "deep_link",
+        "actionData": { "url": "buyconn://product/{{productId}}" }
+      }
+    }
+  }
 }

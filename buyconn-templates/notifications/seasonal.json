@@ -1,0 +1,43 @@
+{
+  "season-offer": {
+    "header": {
+      "title": "❄️ Seasonal Sale!"
+    },
+    "body": {
+      "content": "# Limited Time 🛒\n\nEnjoy exclusive seasonal discounts.\n\n### Details:\n- 🛍️ **Discounts Up To**: {{discountPercent}}%\n- 📅 **Valid Till**: {{endDate}}",
+      "type": "markdown",
+      "image": {
+        "uri": "{{seasonImageUrl}}",
+        "alt": "Season sale"
+      }
+    },
+    "footer": {
+      "shopNow": {
+        "text": "🛒 Shop Sale",
+        "type": "navigation",
+        "action": "open_season_sale",
+        "actionType": "deep_link",
+        "actionData": {
+          "url": "buyconn://offers/season"
+        }
+      }
+    }
+  },
+    "time-flash-sale": {
+    "header": { "title": "⚡ Flash Sale is Live!" },
+    "body": {
+      "content": "# Hurry Up ⏰\n\nFlash Sale ongoing!\n\n- Discounts: {{discountPercent}}%\n- Ends In: {{timeRemaining}}",
+      "type": "markdown",
+      "image": { "uri": "{{flashSaleImageUrl}}", "alt": "Flash sale" }
+    },
+    "footer": {
+      "shopFlash": {
+        "text": "⚡ Shop Now",
+        "type": "navigation",
+        "action": "open_flash_sale",
+        "actionType": "open_sale",
+        "actionData": { "url": "buyconn://offers/flash-sale" }
+      }
+    }
+  }
+}

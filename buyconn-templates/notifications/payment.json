@@ -1,0 +1,50 @@
+{
+  "payment-success": {
+    "header": {
+      "title": "✅ Payment Successful!"
+    },
+    "body": {
+      "content": "# Thank You 💳\n\nYour payment of **{{amount}}** was successful.\n\n### Order ID: {{orderId}}",
+      "type": "markdown",
+      "image": {
+        "uri": "{{successImageUrl}}",
+        "alt": "Payment success"
+      }
+    },
+    "footer": {
+      "trackOrder": {
+        "text": "📦 Track Order",
+        "type": "navigation",
+        "action": "track_order",
+        "actionType": "deep_link",
+        "actionData": {
+          "url": "buyconn://orders/{{orderId}}"
+        }
+      }
+    }
+  },
+  "payment-failed": {
+    "header": {
+      "title": "⚠️ Payment Failed"
+    },
+    "body": {
+      "content": "# Oops 😟\n\nYour payment for order **{{orderId}}** could not be processed.\n\n*Please try again or use another method.*",
+      "type": "markdown",
+      "image": {
+        "uri": "{{failedImageUrl}}",
+        "alt": "Payment failed"
+      }
+    },
+    "footer": {
+      "retryPayment": {
+        "text": "🔄 Retry Payment",
+        "type": "navigation",
+        "action": "retry_payment",
+        "actionType": "payment",
+        "actionData": {
+          "url": "buyconn://orders/{{orderId}}/pay"
+        }
+      }
+    }
+  }
+}
