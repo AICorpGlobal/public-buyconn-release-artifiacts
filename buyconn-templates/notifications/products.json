@@ -220,7 +220,7 @@
       }
     }
   },
-  "promotion-product": {
+  "product-promotion": {
     "header": { "title": "🔥 Hot Product Promo!" },
     "body": {
       "content": "# Must-Have 🛒\n\n{{productName}} is trending right now!\n\n### Deal:\n- 💰 **Price**: {{promoPrice}}\n- 📅 **Ends**: {{endDate}}",
