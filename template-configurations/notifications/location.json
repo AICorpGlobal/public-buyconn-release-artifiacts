@@ -1,0 +1,50 @@
+{
+  "location-store-nearby": {
+    "header": {
+      "title": "📍 A Store Near You!"
+    },
+    "body": {
+      "content": "# Nearby Alert 🏬\n\n{{storeName}} is just {{distance}} km away.\n\n⭐ Top Deals waiting for you!",
+      "type": "markdown",
+      "image": {
+        "uri": "{{storeImageUrl}}",
+        "alt": "{{storeName}} nearby store"
+      }
+    },
+    "footer": {
+      "navigateStore": {
+        "text": "📍 Navigate",
+        "type": "navigation",
+        "action": "open_map",
+        "actionType": "map_navigation",
+        "actionData": {
+          "url": "maps://?q={{storeName}}"
+        }
+      }
+    }
+  },
+  "location-based-product-availability": {
+    "header": {
+      "title": "🏬 Product Nearby!"
+    },
+    "body": {
+      "content": "# Good News 🎉\n\n**{{productName}}** is available at {{storeName}}, just {{distance}} km away.",
+      "type": "markdown",
+      "image": {
+        "uri": "{{productImageUrl}}",
+        "alt": "{{productName}} nearby"
+      }
+    },
+    "footer": {
+      "reserveNow": {
+        "text": "🛒 Reserve Now",
+        "type": "navigation",
+        "action": "reserve_product",
+        "actionType": "reserve",
+        "actionData": {
+          "url": "buyconn://products/{{productId}}/reserve"
+        }
+      }
+    }
+  }
+}

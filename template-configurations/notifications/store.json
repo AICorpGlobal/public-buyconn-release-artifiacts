@@ -1,0 +1,70 @@
+{
+  "store-new-launch": {
+    "header": {
+      "title": "🏬 New Store Alert!"
+    },
+    "body": {
+      "content": "# Welcome {{storeName}} 🎉\n\nA brand new store has joined BuyConn!\n\n### Store Details:\n- 🏷️ **Category**: {{storeCategory}}\n- 📍 **Location**: {{storeLocation}}\n- 🌟 **Rating**: {{storeRating}}/5\n\n*Discover amazing deals today!*",
+      "type": "markdown",
+      "image": {
+        "uri": "{{storeImageUrl}}",
+        "alt": "{{storeName}} store preview"
+      }
+    },
+    "footer": {
+      "visitStore": {
+        "text": "🛍️ Visit Store",
+        "type": "navigation",
+        "action": "open_store",
+        "actionType": "open_store",
+        "actionData": {
+          "url": "buyconn://stores/{{storeId}}"
+        }
+      }
+    }
+  },
+  "store-new-offer": {
+    "header": { "title": "🏬 New Store Offer!" },
+    "body": {
+      "content": "# Fresh Deals 🎉\n\n{{storeName}} has a new offer waiting for you!\n\n### Offer:\n- 🛒 **Discount**: {{discountPercent}}%\n- 📅 **Valid Till**: {{offerEndDate}}",
+      "type": "markdown",
+      "image": {
+        "uri": "{{storeImageUrl}}",
+        "alt": "{{storeName}} offer preview"
+      }
+    },
+    "footer": {
+      "viewStore": {
+        "text": "🛍️ View Store",
+        "type": "navigation",
+        "action": "open_store",
+        "actionType": "deep_link",
+        "actionData": { "url": "buyconn://store/{{storeId}}" }
+      }
+    }
+  },
+  "store-special-offer": {
+    "header": {
+      "title": "🔥 Hot Offer from {{storeName}}!"
+    },
+    "body": {
+      "content": "# Special Deal 💥\n\n{{storeName}} just launched a new offer.\n\n### Offer:\n- 🛒 **Discount**: {{discountPercent}}%\n- ⏰ **Valid Until**: {{offerEndDate}}\n- 📍 **Store**: {{storeName}}\n\n*Don’t miss this limited-time deal!*",
+      "type": "markdown",
+      "image": {
+        "uri": "{{storeOfferImageUrl}}",
+        "alt": "{{storeName}} offer banner"
+      }
+    },
+    "footer": {
+      "shopNow": {
+        "text": "🛒 Shop Now",
+        "type": "navigation",
+        "action": "open_store_offer",
+        "actionType": "open_store",
+        "actionData": {
+          "url": "buyconn://stores/{{storeId}}/offers"
+        }
+      }
+    }
+  }
+}

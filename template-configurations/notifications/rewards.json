@@ -1,0 +1,73 @@
+{
+  "coupon-reward-001": {
+    "header": {
+      "title": "🎫 Exclusive Coupon Unlocked! {{userName}}"
+    },
+    "body": {
+      "content": "# Congratulations! \n \nYou've earned an **exclusive coupon** for being an active user!\n\n### Your Coupon:\n- 🎫 **{{discount}}% OFF** on your next purchase\n- 💰 **Valid up to ${{maxDiscount}}** maximum discount\n- ⏰ **Expires in {{validityDays}} days**\n- **Minimum spend: ${{minSpend}}**\n\n### How to Use:\n1. Click the **Claim Coupon** button below\n2. Your coupon will be added to your account\n3. Apply it during checkout\n4. Enjoy your savings!\n\n*Limited time offer - don't miss out!*",
+      "type": "markdown",
+      "image": {
+        "uri": "https://images.unsplash.com/photo-1607083206869-4c7672e72a8a?w=400&h=200&fit=crop",
+        "alt": "Coupon celebration with discount symbols"
+      }
+    },
+    "footer": {
+      "claimCoupon": {
+        "text": "🎫 Claim Coupon",
+        "type": "action",
+        "action": "claim_coupon",
+        "actionType": "claim_coupon",
+        "actionData": {
+          "couponId": "exclusive-20-off-2024",
+          "couponCode": "EXCLUSIVE20",
+          "discountType": "percentage",
+          "discountValue": 20,
+          "maxDiscount": 50,
+          "minSpend": 25,
+          "expiryDate": "2024-12-31T23:59:59Z",
+          "validityDays": 7,
+          "usageLimit": 1,
+          "categories": [
+            "all"
+          ],
+          "exclusions": [
+            "sale_items",
+            "electronics"
+          ]
+        }
+      },
+      "viewCoupons": {
+        "text": "View All Coupons",
+        "type": "navigation",
+        "action": "view_coupons_list",
+        "actionType": "view_coupons_list",
+        "actionData": {
+          "url": "buyconn://coupons/list"
+        }
+      },
+      "dismiss": {
+        "text": "Dismiss",
+        "type": "action",
+        "action": "dismiss",
+        "actionType": "dismiss"
+      }
+    }
+  },
+  "time-happy-hour": {
+    "header": { "title": "🍹 Happy Hour Deals!" },
+    "body": {
+      "content": "# Limited Time 🎊\n\nExclusive Happy Hour Deals!\n\n🛍️ Discounts: {{discountPercent}}%\n🕒 Valid Until: {{endTime}}",
+      "type": "markdown",
+      "image": { "uri": "{{happyHourImageUrl}}", "alt": "Happy Hour sale" }
+    },
+    "footer": {
+      "shopHappyHour": {
+        "text": "🛍️ Grab Deals",
+        "type": "navigation",
+        "action": "open_happy_hour",
+        "actionType": "open_sale",
+        "actionData": { "url": "buyconn://offers/happy-hour" }
+      }
+    }
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "uiType": "text",
+      "label": "Card Title",
+      "placeholder": "Enter card title",
+      "required": true
+    },
+    "cardType": {
+      "type": "string",
+      "uiType": "text",
+      "label": "Card Type",
+      "placeholder": "Enter card type",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "uiType": "textarea",
+      "label": "Description",
+      "placeholder": "Enter card description",
+      "rows": 3
+    },
+    "currentAssignee": {
+      "type": "string",
+      "uiType": "select",
+      "label": "Assignee",
+      "optionsUrl": "/api/v1/seller/{sellerId}/user",
+      "optionsMapping": [{
+        "value": "id",
+        "label": "name"
+      }]
+    },
+    "participants": {
+      "type": "string",
+      "uiType": "select",
+      "label": "participants",
+      "optionsUrl": "/api/v1/seller/{sellerId}/user",
+      "optionsMapping": [{
+        "value": "id",
+        "label": "name"
+      }]
+    },
+    "dueDate": {
+      "type": "string",
+      "format": "date",
+      "uiType": "datepicker",
+      "label": "Due Date"
+    },
+    "priority": {
+      "type": "string",
+      "uiType": "radio",
+      "label": "Priority",
+      "options": [
+        {"value": "low", "label": "Low"},
+        {"value": "medium", "label": "Medium"},
+        {"value": "high", "label": "High"}
+      ]
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uiType": "multiselect",
+      "label": "Tags",
+      "optionsUrl": "https://api.example.com/tags",
+      "optionsMapping": [{
+        "value": "id",
+        "label": "name"
+      }]
+    },
+    "attachments": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      },
+      "uiType": "file",
+      "label": "Attachments",
+      "multiple": true
+    },
+    "state": {
+      "type": "string",
+      "uiType": "select",
+      "label": "Status",
+      "optionsUrl": "https://api.example.com/statuses",
+      "optionsMapping": [{
+        "value": "code",
+        "label": "description"
+      }]
+    },
+    "customFields": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "uiType": "text",
+            "label": "Field Name"
+          },
+          "value": {
+            "type": "string",
+            "uiType": "text",
+            "label": "Field Value"
+          }
+        }
+      },
+      "uiType": "dynamicFields",
+      "label": "Custom Fields"
+    }
+  }
+}

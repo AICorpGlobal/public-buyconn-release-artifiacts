@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "productName": {
+      "type": "string",
+      "uiType": "text",
+      "label": "Product Name",
+      "placeholder": "Product Name",
+      "required": true
+    },
+     "description": {
+      "type": "string",
+      "uiType": "text",
+      "label": "Description",
+      "placeholder": "Description",
+      "required": true
+    },
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "gameId": "treasure_hunt_2025-tvm",
+  "title": "Meta world Adventure",
+  "description": "Solve puzzles and find hidden treasures across the trivandrum",
+  "version": "0.0.1",
+  "settings": {
+    "maxAttempts": 3,
+    "timeLimit": 3600,
+    "allowBacktracking": true,
+    "locationTolerance": 50
+  },
+  "startPoint": {
+    "latitude": 40.7128,
+    "longitude": -74.0060,
+    "radius": 20
+  },
+  "endConditions": {
+    "requiredPoints": "all",
+    "finalProof": {
+      "type": "photo",
+      "prompt": "Take a photo with the treasure chest"
+    }
+  },
+  "checkpoints": [
+    {
+      "id": "cp_001",
+      "title": "Ancient Ruins",
+      "description": "Find the stone tablet near the old ruins",
+      "location": {
+        "latitude": 40.7135,
+        "longitude": -74.0052,
+        "radius": 15
+      },
+      "task": {
+        "type": "puzzle",
+        "question": "What year was this structure built? (Hint: Check the plaque)",
+        "answer": "1847",
+        "hint": "Look for a metal plaque on the south wall"
+      },
+      "proof": {
+        "type": "photo",
+        "prompt": "Capture the stone tablet with today's date visible"
+      },
+      "next": ["cp_002", "cp_003"]
+    },
+    {
+      "id": "cp_002",
+      "title": "Lighthouse View",
+      "description": "Solve the riddle at the lighthouse",
+      "location": {
+        "latitude": 40.7142,
+        "longitude": -74.0078,
+        "radius": 25
+      },
+      "task": {
+        "type": "riddle",
+        "question": "I have keys but no locks, I have space but no room. What am I?",
+        "answer": "keyboard",
+        "attempts": 3
+      },
+      "proof": {
+        "type": "video",
+        "duration": 10,
+        "prompt": "Record yourself at the top of the lighthouse"
+      },
+      "next": ["cp_004"]
+    },
+    {
+      "id": "cp_003",
+      "title": "Hidden Cave",
+      "description": "Scan the QR code hidden in the cave",
+      "location": {
+        "latitude": 40.7118,
+        "longitude": -74.0085,
+        "radius": 10
+      },
+      "task": {
+        "type": "qr_code",
+        "expectedValue": "TH_CAVERN_2023"
+      },
+      "proof": {
+        "type": "photo",
+        "prompt": "Take a photo inside the cave entrance"
+      },
+      "next": ["cp_004"]
+    },
+    {
+      "id": "cp_004",
+      "title": "Treasure Chest",
+      "description": "Final destination - claim your prize!",
+      "location": {
+        "latitude": 40.7125,
+        "longitude": -74.0045,
+        "radius": 30
+      },
+      "task": {
+        "type": "combination_lock",
+        "digits": 4,
+        "solution": "1847"
+      },
+      "proof": {
+        "type": "photo",
+        "prompt": "Photo with the opened treasure chest"
+      },
+      "next": []
+    }
+  ],
+  "assets": {
+    "mapStyle": "satellite",
+    "theme": {
+      "primaryColor": "#2196F3",
+      "accentColor": "#FF5722"
+    }
+  }
+}
