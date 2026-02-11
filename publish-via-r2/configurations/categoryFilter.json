@@ -1,0 +1,13 @@
+[
+  { id: 0, displayName: "All", storeType: "All" },
+  { id: 1, displayName: "Pretend Shopping & Grocery", storeType: "Pretend Shopping & Grocery" },
+  { id: 2, displayName: "Shampoo & Conditioner", storeType: "Shampoo & Conditioner" },
+  { id: 3, displayName: "Cosmetics", storeType: "Cosmetics" },
+  { id: 4, displayName: "Laundry Detergents", storeType: "Laundry Detergents" },
+  { id: 5, displayName: "Electronics", storeType: "Electronics" },
+  { id: 6, displayName: "Home Appliances", storeType: "Home Appliances" },
+  { id: 7, displayName: "Mobile phones", storeType: "Mobile phones" },
+  { id: 8, displayName: "Air Conditioner", storeType: "Air Conditioner" },
+  { id: 9, displayName: "Refrigerator", storeType: "Refrigerator" },
+  { id: 10, displayName: "Laptops", storeType: "Laptops" },
+]
